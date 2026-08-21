@@ -1,0 +1,6 @@
+phase,tasks,role,test_exposure
+V11 gate development,"0,1,2,7,10",retrospective development,yes
+V11 forward application,"3,5",then-unseen expansion,after V11 freeze
+V12 gate development,"0,1,2,3,5,7,10",retrospective expansion,yes
+V12 final holdout,"6,9",then-unseen abstention check,after V12 freeze
+V13-V15 development,"2,3,10 emphasis",task-specific retrospective refinement,yes

@@ -1,0 +1,2 @@
+label,timestamp,gpu_name,memory_used_mib,memory_total_mib,utilization_gpu_pct
+after_summary,2026-07-02T02:59:16,NVIDIA GeForce RTX 3070,1004,8192,16

@@ -1,0 +1,2 @@
+scope,cases,hybrid_selections,selected_blocks,strict_harm_count,epsilon_harm_0p005_count,sum_gain_vs_safe,mean_gain_vs_safe,median_gain_vs_safe,worst_gain_vs_safe,best_gain_vs_safe,required_min_hybrid_selections,exact_case_count_pass,hybrid_count_pass,strict_harm_pass,epsilon_harm_0p005_pass,positive_mean_pass,overall_fresh_success
+fresh_322_381_pooled,60,2,1,1,1,-0.023629286367944,-0.00039382143946573337,0.0,-0.0282202471525878,0.0045909607846438,2,True,True,False,False,False,False

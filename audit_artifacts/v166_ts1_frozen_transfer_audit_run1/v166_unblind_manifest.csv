@@ -1,0 +1,6 @@
+task_id,loaded_at,path,sha256,n,positive,negative
+2,2026-07-13T07:12:57,experiments\seagate_kqi\cache\v166_ts1_frozen_transfer_seed67_run1\unblind\label_test.npy,a179dba425185e94cb9106ebda0644969c3ffd6c7c4f571e325cd157b0b88155,5462,48,5414
+4,2026-07-13T07:12:57,experiments\seagate_kqi\cache\v166_ts1_frozen_transfer_seed67_run1\unblind\label_test.npy,a179dba425185e94cb9106ebda0644969c3ffd6c7c4f571e325cd157b0b88155,3616,49,3567
+5,2026-07-13T07:12:57,experiments\seagate_kqi\cache\v166_ts1_frozen_transfer_seed67_run1\unblind\label_test.npy,a179dba425185e94cb9106ebda0644969c3ffd6c7c4f571e325cd157b0b88155,9209,86,9123
+6,2026-07-13T07:12:57,experiments\seagate_kqi\cache\v166_ts1_frozen_transfer_seed67_run1\unblind\label_test.npy,a179dba425185e94cb9106ebda0644969c3ffd6c7c4f571e325cd157b0b88155,17292,317,16975
+10,2026-07-13T07:12:57,experiments\seagate_kqi\cache\v166_ts1_frozen_transfer_seed67_run1\unblind\label_test.npy,a179dba425185e94cb9106ebda0644969c3ffd6c7c4f571e325cd157b0b88155,5157,43,5114

@@ -1,0 +1,10 @@
+decision_item,pass,value
+total_seed_fold_policy_harm,False,harm=2/10
+acceptance_coverage,False,accepted=3/10
+each_fold_acceptance_coverage,True,min_fold_accepted=1/5
+mean_policy_delta_PR_AUC,False,mean_delta=-0.006550
+each_fold_ensemble_delta_PR_AUC,False,min_fold_ensemble_delta=-0.023010
+each_fold_mean_test_FPR_excess,True,max_fold_mean_FPR_excess=-0.002227
+any_seed_fold_test_FPR_excess,True,max_seed_FPR_excess=0.000000
+v165_retrospective_stress_status,False,fails_locked_retrospective_stress_checks
+promotion_status,False,do_not_promote_from_retrospective_backtest; V15 remains full-task main; task0 remains safe-reject pending post-week92 data

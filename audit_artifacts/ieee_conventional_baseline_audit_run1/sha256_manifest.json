@@ -1,0 +1,30 @@
+{
+  "input_sha256": {
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_lightgbm_run1\\baseline_rows.csv": "60a38a348db4aa1b7c84d64d15d3dc06fb6b8276f14f819cc31d74abb33b4f25",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_lightgbm_run1\\config.json": "6edf170098db5ecf3ff1ffc2b307ae2cd6b4cc89aff8dd417ce487e4efb0e77d",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_lightgbm_run1\\environment.json": "4c6caf1685ef79b32c134edfe7b65169b467901e6f6ef1266448fb691a58b08d",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_lightgbm_run1\\task_eligibility.csv": "29e1c94e5b74fca1417518b53e07789ac3642b134e464f0472b9cad91aa41355",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_xgboost_run1\\baseline_rows.csv": "435ed2f236136103f60ac92ff0cf87ed2a39f1145e48bf8b657ab4cb87578855",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_xgboost_run1\\config.json": "7fe4f438931db3276939aea91c0d674ca8aabfb057208f79442647bf26b80acb",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_xgboost_run1\\environment.json": "4c6caf1685ef79b32c134edfe7b65169b467901e6f6ef1266448fb691a58b08d",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_xgboost_run1\\task_eligibility.csv": "29e1c94e5b74fca1417518b53e07789ac3642b134e464f0472b9cad91aa41355"
+  },
+  "output_sha256": {
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_audit_run1\\baseline_rows.csv": "9c95ad2d85a2c379a443ef60be4ee362be09508d9b8d986702f666c1665c0f08",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_audit_run1\\task_eligibility.csv": "29e1c94e5b74fca1417518b53e07789ac3642b134e464f0472b9cad91aa41355",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_audit_run1\\validation_selected_rows.csv": "7171cacba20a240f3fefbc44cb67a76093c07b85e3b7ca66d798c9bfb68555e7",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_audit_run1\\validation_selection_frequency.csv": "8262b4f73f95dfe922cede5e43dc658431871a06f17ee62ec23c7fe355ef51f7",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_audit_run1\\method_task_summary.csv": "468c46b4817e440cf80e763281356d6f451ae3ef23badcc615401fb1f32eac5f",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_audit_run1\\overall_summary.csv": "f2dc4ae96f5270e54937cdb6acb526bf6900a4a307e595d8a423959dd2cdc8f8",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_audit_run1\\config.json": "421042aa09afc7d9b99fd312f4a2fecccd9afb74dae295247e94e484b0f351d9",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_audit_run1\\environment.json": "1968e8a3a36006a710f60339e11927c46ffa8443049d150b5b5bf2daccf054f2"
+  },
+  "verification": {
+    "row_count": 770,
+    "unique_key_count": 770,
+    "failed_row_count": 0,
+    "task_count": 11,
+    "classifier_count": 2,
+    "method_count": 7
+  }
+}

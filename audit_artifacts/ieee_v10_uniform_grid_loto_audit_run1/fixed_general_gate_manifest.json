@@ -1,0 +1,48 @@
+{
+  "analysis_label": "retrospective task-ID-free gate sensitivity",
+  "gate_selection_order": [
+    "minimum harm_row_count",
+    "maximum task_macro_mean_delta",
+    "maximum minimum_task_mean_delta",
+    "maximum selected_count",
+    "lexical rule_name"
+  ],
+  "gate_definitions": [
+    {
+      "name": "safe_only",
+      "formula": "False",
+      "historical_role": "reference"
+    },
+    {
+      "name": "strict_certificate",
+      "formula": "strict",
+      "historical_role": "legacy comparator"
+    },
+    {
+      "name": "v11_grid_or_profile_strict",
+      "formula": "strict and moderate",
+      "historical_role": "legacy conservative gate"
+    },
+    {
+      "name": "v11_rare_signal_aggressive_else_strict",
+      "formula": "broad if rare else (strict and moderate)",
+      "historical_role": "frozen before tasks 3/5/6/9"
+    },
+    {
+      "name": "v12_signal_aggressive_else_strict",
+      "formula": "broad if opportunity else (strict and moderate)",
+      "historical_role": "expanded after tasks 3/5; frozen before tasks 6/9"
+    }
+  ],
+  "input_sha256": {
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\selector_v12_final_validation_report_run1\\selector_v12_final_candidates_with_task_context.csv": "839f19a0bed3283dac522bc0716ffccd20554356a2fb79601872f193b62dc919",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\selector_v12_final_validation_report_run1\\selector_v12_final_selection_results.csv": "ffd2cbcad3291c12ac532444dfaa7638d340dd8923985ba9fa6e184053d60b2b",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\task10_full_summarystats_v10_s1plus_featurewise_quantile_run1\\task10_v10_s1plus_featurewise_candidate_val_grid.csv": "ff262f935c5f1bcbd4e66604cc321fadfde5a4d5820b36ddd9c75ee774be2690",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\task0_task2_full_summarystats_v10_s1plus_featurewise_quantile_run1\\task0_task2_v10_s1plus_featurewise_candidate_val_grid.csv": "343926f309f6bc7db484a831f6c00b55139ccc5b119ea4e084a7d9e9ea0fa760",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\task1_task7_full_summarystats_v10_s1plus_featurewise_quantile_run1\\task1_task7_v10_s1plus_featurewise_candidate_val_grid.csv": "f5db697f9e62dbc063f78f59fed70f06437ed4edf54c7f1125c2508b783bb0ad",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\task3_task5_full_summarystats_v10_s1plus_featurewise_quantile_run1\\task3_task5_v10_s1plus_featurewise_candidate_val_grid.csv": "0d53c9704a88930f7f792bd47fff2d8edd5bc4d3b5aea9ba9b57a072b3bf90c9",
+    "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\task6_task9_full_summarystats_v10_s1plus_featurewise_quantile_run1\\task6_task9_v10_s1plus_featurewise_candidate_val_grid.csv": "119aa5d64a936305a50f828988e11dd4dcd2fad6000e4cdc0468033a6414e770"
+  },
+  "bootstrap_seed": 20260714,
+  "bootstrap_reps": 10000
+}

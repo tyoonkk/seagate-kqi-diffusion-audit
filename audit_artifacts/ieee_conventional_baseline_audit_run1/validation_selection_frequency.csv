@@ -1,0 +1,15 @@
+classifier,method,selected_task_seed_count,selected_fraction
+lightgbm,adasyn,8,0.14545454545454545
+lightgbm,borderline_smote,8,0.14545454545454545
+lightgbm,class_weighted,9,0.16363636363636364
+lightgbm,random_over,10,0.18181818181818182
+lightgbm,random_under_10to1,6,0.10909090909090909
+lightgbm,smote,9,0.16363636363636364
+lightgbm,unweighted,5,0.09090909090909091
+xgboost,adasyn,5,0.09090909090909091
+xgboost,borderline_smote,9,0.16363636363636364
+xgboost,class_weighted,2,0.03636363636363636
+xgboost,random_over,11,0.2
+xgboost,random_under_10to1,11,0.2
+xgboost,smote,8,0.14545454545454545
+xgboost,unweighted,9,0.16363636363636364

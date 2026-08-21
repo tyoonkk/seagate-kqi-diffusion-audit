@@ -1,0 +1,3 @@
+check,gpu_available,raw_status
+audit_start,True,"NVIDIA GeForce RTX 3070, 983, 8192, 3"
+audit_end,True,"NVIDIA GeForce RTX 3070, 983, 8192, 4"

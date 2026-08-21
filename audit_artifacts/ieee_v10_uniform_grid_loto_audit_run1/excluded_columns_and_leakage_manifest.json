@@ -1,0 +1,18 @@
+{
+  "excluded_predictor_patterns": [
+    "task_id (grouping key only)",
+    "seed (grouping key only)",
+    "test_*",
+    "safe_baseline_test_*",
+    "selected_test_*",
+    "delta_vs_*",
+    "lift_vs_*",
+    "harm*",
+    "worse_*",
+    "oracle*",
+    "pos_rate_test",
+    "n_test",
+    "test_pos"
+  ],
+  "historical_contamination": "The fixed legacy gate family was developed after archived test exposure; LOTO is therefore a retrospective sensitivity analysis."
+}

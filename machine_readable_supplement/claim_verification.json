@@ -1,0 +1,155 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "baseline_rows",
+      "actual": 770,
+      "expected": 770,
+      "passed": true
+    },
+    {
+      "name": "baseline_failed_rows",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "loto_rows",
+      "actual": 45,
+      "expected": 45,
+      "passed": true
+    },
+    {
+      "name": "loto_selected",
+      "actual": 11,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "name": "loto_negative",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "loto_mean",
+      "actual": 0.0085793066894532,
+      "expected": 0.008579306689453232,
+      "passed": true
+    },
+    {
+      "name": "loto_ci_low",
+      "actual": 0.0011522156885808,
+      "expected": 0.0011522156885808799,
+      "passed": true
+    },
+    {
+      "name": "loto_ci_high",
+      "actual": 0.0175433145655152,
+      "expected": 0.017543314565515247,
+      "passed": true
+    },
+    {
+      "name": "nested_conservative_selected",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "nested_mean_only_selected",
+      "actual": 7,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "name": "nested_mean_only_negative",
+      "actual": 5,
+      "expected": 5,
+      "passed": true
+    },
+    {
+      "name": "nested_mean_only_mean",
+      "actual": -0.0020867161789478,
+      "expected": -0.0020867161789478116,
+      "passed": true
+    },
+    {
+      "name": "v15_selected",
+      "actual": 16,
+      "expected": 16,
+      "passed": true
+    },
+    {
+      "name": "v15_mean",
+      "actual": 0.0226393651497335,
+      "expected": 0.02263936514973358,
+      "passed": true
+    },
+    {
+      "name": "v15_negative",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "v16_selected",
+      "actual": 28,
+      "expected": 28,
+      "passed": true
+    },
+    {
+      "name": "v16_mean",
+      "actual": 0.0422829308215677,
+      "expected": 0.04228293082156776,
+      "passed": true
+    },
+    {
+      "name": "v165_negative",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "name": "v165_mean",
+      "actual": -0.006550431635838,
+      "expected": -0.006550431635838083,
+      "passed": true
+    },
+    {
+      "name": "v166_selected",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "v166_mean",
+      "actual": 0.011482883411032,
+      "expected": 0.011482883411032051,
+      "passed": true
+    },
+    {
+      "name": "secom_rows",
+      "actual": 60,
+      "expected": 60,
+      "passed": true
+    },
+    {
+      "name": "secom_selected",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "name": "secom_negative",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "name": "secom_mean",
+      "actual": -0.00039382143946573337,
+      "expected": -0.0003938214394657333,
+      "passed": true
+    }
+  ]
+}

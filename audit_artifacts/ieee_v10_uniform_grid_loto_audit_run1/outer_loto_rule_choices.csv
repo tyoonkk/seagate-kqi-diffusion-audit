@@ -1,0 +1,10 @@
+heldout_task_id,chosen_rule,heldout_n_tasks,heldout_n_rows,heldout_task_macro_mean_delta,heldout_task_median_delta,heldout_minimum_task_mean_delta,heldout_negative_task_count,heldout_harm_row_count,heldout_selected_count,heldout_coverage
+0,v12_signal_aggressive_else_strict,1,5,0.00345664706574264,0.00345664706574264,0.00345664706574264,0,0,1,0.2
+1,v12_signal_aggressive_else_strict,1,5,0.0,0.0,0.0,0,0,0,0.0
+2,v12_signal_aggressive_else_strict,1,5,0.012666700984444241,0.012666700984444241,0.012666700984444241,0,0,3,0.6
+3,v11_rare_signal_aggressive_else_strict,1,5,0.0253814053750394,0.0253814053750394,0.0253814053750394,0,0,2,0.4
+5,v12_signal_aggressive_else_strict,1,5,0.0,0.0,0.0,0,0,0,0.0
+6,v12_signal_aggressive_else_strict,1,5,0.0,0.0,0.0,0,0,0,0.0
+7,v12_signal_aggressive_else_strict,1,5,0.0,0.0,0.0,0,0,0,0.0
+9,v12_signal_aggressive_else_strict,1,5,0.0,0.0,0.0,0,0,0,0.0
+10,v12_signal_aggressive_else_strict,1,5,0.0357090067798528,0.0357090067798528,0.0357090067798528,0,0,5,1.0

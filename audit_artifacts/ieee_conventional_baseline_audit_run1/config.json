@@ -1,0 +1,104 @@
+{
+  "source_runs": {
+    "lightgbm": "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_lightgbm_run1",
+    "xgboost": "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_conventional_baseline_xgboost_run1"
+  },
+  "classifiers": [
+    "lightgbm",
+    "xgboost"
+  ],
+  "tasks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "methods": [
+    "unweighted",
+    "class_weighted",
+    "random_over",
+    "random_under_10to1",
+    "smote",
+    "borderline_smote",
+    "adasyn"
+  ],
+  "expected_rows": 770,
+  "bootstrap_seed": 20260714,
+  "bootstrap_reps": 10000,
+  "source_configs": {
+    "lightgbm": {
+      "data_root": ".venv/softsensing_data_full",
+      "toolset": "time-series-2",
+      "representation": "mean",
+      "min_train_valid": 500,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "classifiers": [
+        "lightgbm"
+      ],
+      "methods": [
+        "unweighted",
+        "class_weighted",
+        "random_over",
+        "random_under_10to1",
+        "smote",
+        "borderline_smote",
+        "adasyn"
+      ],
+      "n_estimators": 200,
+      "learning_rate": 0.05,
+      "target_add_ratio": 1.0,
+      "under_negative_to_positive": 10.0,
+      "n_jobs": 8
+    },
+    "xgboost": {
+      "data_root": ".venv/softsensing_data_full",
+      "toolset": "time-series-2",
+      "representation": "mean",
+      "min_train_valid": 500,
+      "seeds": [
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "classifiers": [
+        "xgboost"
+      ],
+      "methods": [
+        "unweighted",
+        "class_weighted",
+        "random_over",
+        "random_under_10to1",
+        "smote",
+        "borderline_smote",
+        "adasyn"
+      ],
+      "n_estimators": 200,
+      "learning_rate": 0.05,
+      "target_add_ratio": 1.0,
+      "under_negative_to_positive": 10.0,
+      "n_jobs": 8
+    }
+  }
+}

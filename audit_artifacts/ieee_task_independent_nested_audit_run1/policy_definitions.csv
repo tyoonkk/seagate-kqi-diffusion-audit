@@ -1,0 +1,8 @@
+name,description,min_val_gain,max_val_fpr_excess,positive_only,min_tstr_pr_auc,pass_all
+reference_only,Always retain the validation-selected conventional reference.,,,False,,False
+validation_best,Deploy the validation-best hybrid without an additional gate.,,,False,,True
+gain0_fpr0,Require nonnegative validation PR-AUC gain and no validation FPR increase.,0.0,0.0,False,,False
+gain005_fpr0,Require validation PR-AUC gain >= 0.005 and no validation FPR increase.,0.005,0.0,False,,False
+gain01_fpr01,Require validation PR-AUC gain >= 0.01 and validation FPR excess <= 0.01.,0.01,0.01,False,,False
+positive_gain0_fpr01,Positive-only generation with nonnegative validation gain and FPR excess <= 0.01.,0.0,0.01,True,,False
+positive_tstr_gain0,"Positive-only generation with TSTR >= 0.008, nonnegative gain, and FPR excess <= 0.01.",0.0,0.01,True,0.008,False

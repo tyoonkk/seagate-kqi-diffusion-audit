@@ -1,0 +1,2 @@
+analysis,n_tasks,n_rows,task_macro_mean_delta,task_median_delta,minimum_task_mean_delta,negative_task_count,harm_row_count,selected_count,coverage,task_bootstrap_ci_low,task_bootstrap_ci_high,bootstrap_seed,bootstrap_reps
+retrospective_outer_leave_one_task_out,9,45,0.008579306689453232,0.0,0.0,0,0,11,0.24444444444444444,0.0011522156885808799,0.017543314565515247,20260714,10000

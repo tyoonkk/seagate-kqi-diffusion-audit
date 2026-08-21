@@ -1,0 +1,9 @@
+decision_item,pass,value
+policy_harm,True,harm=0/5
+acceptance_coverage,False,accepted=1/5
+macro_mean_policy_delta_PR_AUC,True,mean_delta=+0.011483
+mean_test_FPR_excess,True,mean_FPR_excess=-0.001699
+any_task_test_FPR_excess,True,max_task_FPR_excess=+0.000000
+v166_transfer_pilot_status,False,fails_locked_ts1_transfer_pilot
+next_experiment_permission,False,stop_v166_seed_expansion
+promotion_status,False,V15 remains the main result; this same-project alternate-tool-family pilot cannot directly replace it

@@ -1,0 +1,28 @@
+{
+  "source_environments": {
+    "lightgbm": {
+      "python": "3.11.2",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.3.1",
+      "pandas": "2.3.1",
+      "scikit_learn": "1.6.1",
+      "imbalanced_learn": "0.13.0",
+      "lightgbm": "4.6.0",
+      "xgboost": "3.0.5",
+      "git_commit": "c27e23ae278673b785ac4090885ddd986d9e49ae",
+      "git_dirty": true
+    },
+    "xgboost": {
+      "python": "3.11.2",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "numpy": "2.3.1",
+      "pandas": "2.3.1",
+      "scikit_learn": "1.6.1",
+      "imbalanced_learn": "0.13.0",
+      "lightgbm": "4.6.0",
+      "xgboost": "3.0.5",
+      "git_commit": "c27e23ae278673b785ac4090885ddd986d9e49ae",
+      "git_dirty": true
+    }
+  }
+}

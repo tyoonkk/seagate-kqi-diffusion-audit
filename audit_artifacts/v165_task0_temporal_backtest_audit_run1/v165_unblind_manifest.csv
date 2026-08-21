@@ -1,0 +1,3 @@
+fold,loaded_at,path,sha256,n,positive,negative
+fold_a,2026-07-11T21:00:22,experiments\seagate_kqi\cache\v165_task0_train_temporal_backtest_run1\fold_a\unblind\label_test.npy,48b5ff201494b4d6357cd89813102ed77090b3e390637d11baaa31640159ab3b,943,45,898
+fold_b,2026-07-11T21:00:22,experiments\seagate_kqi\cache\v165_task0_train_temporal_backtest_run1\fold_b\unblind\label_test.npy,7a4d451aacf348b64dc03a2be4ab4e888588ccc65f7a82c7788bb72f4b53ce5b,943,40,903

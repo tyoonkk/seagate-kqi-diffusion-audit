@@ -1,0 +1,2 @@
+scope,n,accepted_count,mean_policy_delta_PR_AUC,median_policy_delta_PR_AUC,min_policy_delta_PR_AUC,policy_harm_count,mean_test_FPR_excess,max_seed_fold_test_FPR_excess
+fold_a_and_fold_b_seed_cases,10,3,-0.006550431635838083,0.0,-0.053332413239305154,2,-0.0027747153142087624,0.0

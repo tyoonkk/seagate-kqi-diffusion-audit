@@ -1,0 +1,2 @@
+scope,n_tasks,accepted_count,macro_mean_policy_delta_PR_AUC,macro_median_policy_delta_PR_AUC,min_task_policy_delta_PR_AUC,accepted_only_mean_policy_delta_PR_AUC,policy_harm_count,mean_test_FPR_excess,max_task_test_FPR_excess
+five_anonymous_time_series_1_tasks_seed67,5,1,0.011482883411032051,0.0,0.0,0.05741441705516026,0,-0.001699298115995567,0.0

@@ -1,0 +1,10 @@
+task_id,chosen_rule,validation_stage,n,selected_count,harm_count,mean_delta,median_delta,minimum_delta
+0,v12_signal_aggressive_else_strict,mining_sanity,5,1,0,0.00345664706574264,0.0,0.0
+1,v12_signal_aggressive_else_strict,mining_sanity,5,0,0,0.0,0.0,0.0
+2,v12_signal_aggressive_else_strict,mining_sanity,5,3,0,0.012666700984444241,0.0112699023758831,0.0
+3,v11_rare_signal_aggressive_else_strict,expanded_sanity,5,2,0,0.0253814053750394,0.0,0.0
+5,v12_signal_aggressive_else_strict,expanded_sanity,5,0,0,0.0,0.0,0.0
+6,v12_signal_aggressive_else_strict,final_holdout,5,0,0,0.0,0.0,0.0
+7,v12_signal_aggressive_else_strict,mining_sanity,5,0,0,0.0,0.0,0.0
+9,v12_signal_aggressive_else_strict,final_holdout,5,0,0,0.0,0.0,0.0
+10,v12_signal_aggressive_else_strict,mining_sanity,5,5,0,0.0357090067798528,0.0455858957466538,0.0131168989932572
