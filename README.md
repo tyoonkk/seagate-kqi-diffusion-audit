@@ -19,7 +19,7 @@ states this limitation explicitly.
 |---|---|
 | `analysis_code/` | Audit and figure scripts, including the matched-objective attribution audit and its pre-frozen specification (`MATCHED_OBJECTIVE_GATE_AUDIT_SPEC.md`) |
 | `audit_artifacts/` | Archived outputs of each audit run (CSV results, README, SHA-256 manifests, environment records) |
-| `machine_readable_supplement/` | Flat machine-readable summary tables and `claim_verification.json`, which binds every numeric claim in the manuscript to a source artifact |
+| `machine_readable_supplement/` | Flat machine-readable summary tables and `claim_verification.json` (42 checks), which binds the principal numeric claims in the manuscript to their source artifacts |
 | `input_tables/` | The exact archived candidate/result tables the audit scripts read |
 
 ## Data
@@ -51,7 +51,8 @@ bootstrap draws use NumPy `default_rng(20260714)` with 10,000 resamples.
 | `run_ieee_conventional_baseline_audit.py` | Conventional all-endpoint audit (Table 2) |
 | `build_ieee_task_independent_nested_audit.py` | Primary task-independent nested audit (Table 4) |
 | `build_ieee_v10_uniform_grid_loto_audit.py` | Equal-budget outer LOTO sensitivity (Table 4) |
-| `build_ieee_matched_objective_gate_audit.py` | Matched-objective attribution audit (Table 5) |
+| `build_ieee_matched_objective_gate_audit.py` | Matched-objective attribution audit (Table 5); the hardened builder writes `..._run2`, which is byte-identical to the cited `..._run1` |
+| `verify_matched_audit_claims.py` | Appends the matched-audit checks to `claim_verification.json` |
 | `build_ieee_revision_figures.py` | Figures 1–3 |
 
 ## Integrity
@@ -60,8 +61,9 @@ Each audit directory carries its own README and SHA-256 manifest.
 `machine_readable_supplement/claim_verification.json` records the
 claim-by-claim check that every number in the manuscript matches its source
 artifact. The matched-objective audit additionally binds its pre-analysis
-specification (frozen before any result was viewed) and its input tables by
-SHA-256 in `audit_artifacts/ieee_matched_objective_gate_audit_run1/audit_manifest.json`.
+specification and its input tables by SHA-256 in each run's
+`audit_manifest.json`; the specification's local file metadata predates the
+audit output, but no independently timestamped preregistration exists.
 
 ## License
 

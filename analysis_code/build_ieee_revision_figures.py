@@ -95,52 +95,77 @@ def arrow(ax, start, end, color=GRAY, style="-", width=1.2, rad=0.0):
     )
 
 
+def elbow(ax, pts, color=GRAY, style="-", width=1.2):
+    """Orthogonal connector: straight segments through pts, arrowhead on the last."""
+    xs = [p[0] for p in pts]
+    ys = [p[1] for p in pts]
+    if len(pts) > 2:
+        ax.plot(xs[:-1], ys[:-1], color=color, linestyle=style, linewidth=width,
+                solid_capstyle="round", zorder=2)
+    ax.add_patch(
+        FancyArrowPatch(
+            pts[-2],
+            pts[-1],
+            arrowstyle="-|>",
+            mutation_scale=10,
+            linewidth=width,
+            linestyle=style,
+            color=color,
+            shrinkA=0.0,
+            shrinkB=0.0,
+            zorder=2,
+        )
+    )
+
+
 def information_boundaries() -> None:
-    fig, ax = plt.subplots(figsize=(13.2, 4.6))
+    fig, ax = plt.subplots(figsize=(13.2, 5.0))
     ax.set_xlim(0, 1)
     ax.set_ylim(0, 1)
     ax.axis("off")
 
-    # Grid: main pipeline centered on y=0.56; fit/selection boxes stacked
-    # symmetrically in column 2; feedback loop along the bottom band.
-    add_box(ax, (0.02, 0.42), 0.15, 0.28, "Public Seagate arrays",
+    # Strict grid.  Main pipeline on one horizontal line (center y=0.62);
+    # training-only fit above, validation selection below; the historical
+    # feedback loop runs along the bottom band.  Every connector is
+    # orthogonal (right angles only).
+    add_box(ax, (0.02, 0.50), 0.14, 0.24, "Public Seagate arrays",
             "fixed train / validation\n/ test splits", LIGHT_BLUE)
-    add_box(ax, (0.24, 0.66), 0.17, 0.26, "Training only",
+    add_box(ax, (0.24, 0.74), 0.17, 0.24, "Training only",
             "imputation, constants,\nmodel and generator fit", "#E7F4EC", GREEN)
-    add_box(ax, (0.24, 0.20), 0.17, 0.26, "Validation",
+    add_box(ax, (0.24, 0.26), 0.17, 0.24, "Validation",
             "candidate ranking,\nthresholds, task profiles", "#FFF1D6", ORANGE)
-    add_box(ax, (0.48, 0.42), 0.17, 0.28, "Frozen row decision",
+    add_box(ax, (0.47, 0.50), 0.17, 0.24, "Frozen row decision",
             "hybrid candidate or\nconventional reference", LIGHT_BLUE)
-    add_box(ax, (0.72, 0.42), 0.12, 0.28, "Test",
+    add_box(ax, (0.70, 0.50), 0.11, 0.24, "Test",
             "one row-level score\nafter selection", "#FDE8E8", RED)
-    add_box(ax, (0.87, 0.42), 0.11, 0.28, "Reported result",
+    add_box(ax, (0.86, 0.50), 0.12, 0.24, "Reported result",
             "task-cluster summaries\nand coverage", LIGHT_GRAY, GRAY)
 
-    # Forward flow: symmetric fan-out and fan-in, then a straight spine.
-    arrow(ax, (0.17, 0.62), (0.24, 0.79), rad=0.15)
-    arrow(ax, (0.17, 0.50), (0.24, 0.33), rad=-0.15)
-    arrow(ax, (0.41, 0.79), (0.48, 0.63), rad=0.15)
-    arrow(ax, (0.41, 0.33), (0.48, 0.49), rad=-0.15)
-    arrow(ax, (0.65, 0.56), (0.72, 0.56))
-    arrow(ax, (0.84, 0.56), (0.87, 0.56))
+    # Forward flow.
+    elbow(ax, [(0.09, 0.74), (0.09, 0.86), (0.24, 0.86)])          # arrays -> training
+    elbow(ax, [(0.09, 0.50), (0.09, 0.38), (0.24, 0.38)])          # arrays -> validation
+    elbow(ax, [(0.41, 0.86), (0.555, 0.86), (0.555, 0.74)])        # training -> frozen (top)
+    elbow(ax, [(0.41, 0.38), (0.555, 0.38), (0.555, 0.50)])        # validation -> frozen (bottom)
+    elbow(ax, [(0.64, 0.62), (0.70, 0.62)])                         # frozen -> test
+    elbow(ax, [(0.81, 0.62), (0.86, 0.62)])                         # test -> reported
 
-    # Historical feedback loop, kept visually separate in the bottom band.
+    # Historical feedback loop (dashed red, bottom band, right angles).
     add_box(
         ax,
         (0.44, 0.02),
         0.36,
-        0.17,
+        0.18,
         "Retrospective policy development",
         "archived test outcomes informed later gate families\nand task-specific refinements",
         "#FFF0F0",
         RED,
     )
-    arrow(ax, (0.78, 0.42), (0.76, 0.19), color=RED, style="--", width=1.4, rad=0.25)
-    arrow(ax, (0.44, 0.105), (0.325, 0.20), color=RED, style="--", width=1.4, rad=0.25)
+    elbow(ax, [(0.755, 0.50), (0.755, 0.20)], color=RED, style="--", width=1.4)   # test -> feedback
+    elbow(ax, [(0.44, 0.11), (0.325, 0.11), (0.325, 0.26)], color=RED, style="--", width=1.4)  # feedback -> validation
 
     ax.text(
         0.02,
-        0.10,
+        0.045,
         "Independent evidence is not implied by new RNG seeds on the same arrays.\n"
         "Time-series-1 and SECOM are reported separately as transfer stress tests.",
         ha="left",
@@ -277,6 +302,9 @@ def gate_tradeoff() -> None:
             fontsize=7.2,
         )
     ax.axhline(0, color="#333333", linewidth=0.8)
+    # Extra headroom so the top-right annotation stays inside the axes.
+    ymin, ymax = ax.get_ylim()
+    ax.set_ylim(ymin, ymax + 0.22 * (ymax - ymin))
     ax.set_xlabel("Hybrid coverage")
     ax.set_ylabel("Mean test PR-AUC difference")
     ax.set_title("Retrospective coverage--gain trade-off")

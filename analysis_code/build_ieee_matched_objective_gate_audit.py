@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 """Matched-objective, matched-family gate audit on the equal-budget archive.
 
-Frozen pre-analysis specification: MATCHED_OBJECTIVE_GATE_AUDIT_SPEC.md
-(SHA-256 recorded in the output manifest).  This script decomposes the
+Written pre-analysis specification: MATCHED_OBJECTIVE_GATE_AUDIT_SPEC.md
+(SHA-256 recorded in the output manifest; local file metadata predates the
+audit output, but no independently timestamped preregistration exists).
+This script decomposes the
 difference between the primary task-independent nested audit (V9 common
 candidates) and the secondary equal-budget LOTO audit (V10 uniform grid)
 along two of the three differing axes: gate family and selection objective,
@@ -37,8 +39,12 @@ CASE_PATH = (
     "selector_v12_final_candidates_with_task_context.csv"
 )
 LEGACY_SUMMARY_PATH = BASE / "ieee_v10_uniform_grid_loto_audit_run1/legacy_rule_summary.csv"
+LEGACY_CASE_PATH = (
+    BASE / "ieee_v10_uniform_grid_loto_audit_run1/legacy_rule_case_results_recomputed.csv"
+)
 SPEC_PATH = ROOT / "experiments/seagate_kqi/MATCHED_OBJECTIVE_GATE_AUDIT_SPEC.md"
-OUT_DIR = BASE / "ieee_matched_objective_gate_audit_run1"
+RUN_ID = "run2"
+OUT_DIR = BASE / f"ieee_matched_objective_gate_audit_{RUN_ID}"
 
 EXPECTED_TASKS = (0, 1, 2, 3, 5, 6, 7, 9, 10)
 EXPECTED_SEEDS = (42, 43, 44, 45, 46)
@@ -110,7 +116,9 @@ def load_cases() -> pd.DataFrame:
     return cases.sort_values(["task_id", "seed"]).reset_index(drop=True)
 
 
-# --- legacy5 gate logic, copied verbatim from build_ieee_v10_uniform_grid_loto_audit.py ---
+# --- legacy5 gate logic, semantically reproduced from
+# build_ieee_v10_uniform_grid_loto_audit.py (same formulas and tie-breaks;
+# minor wrapper differences such as pd.Series around np.where) ---
 
 def derive_validation_signals(cases: pd.DataFrame) -> pd.DataFrame:
     out = cases.copy()
@@ -281,6 +289,29 @@ def task_bootstrap(frame: pd.DataFrame) -> tuple[float, float]:
     return float(lo), float(hi)
 
 
+def verify_against_legacy_cases(gate_frames: dict[str, pd.DataFrame]) -> None:
+    """Fail closed unless every one of the 5x45 legacy case rows reproduces run1."""
+    if not LEGACY_CASE_PATH.exists():
+        raise FileNotFoundError(LEGACY_CASE_PATH)
+    legacy = pd.read_csv(LEGACY_CASE_PATH, low_memory=False)
+    for gate_name in LEGACY_GATES:
+        want = legacy[legacy["rule_name"].eq(gate_name)].set_index(["task_id", "seed"])
+        got = gate_frames[gate_name].set_index(["task_id", "seed"])
+        if len(want) != 45 or len(got) != 45:
+            raise ValueError(f"Legacy case coverage mismatch for {gate_name}")
+        joined = got.join(want, lsuffix="_new", rsuffix="_old")
+        kind_ok = joined["selected_kind_new"].eq(joined["selected_kind_old"])
+        delta_ok = np.isclose(
+            joined["delta_vs_safe_baseline_test_new"],
+            joined["delta_vs_safe_baseline_test_old"],
+            atol=1e-12,
+            rtol=0.0,
+        )
+        if not (kind_ok.all() and delta_ok.all()):
+            bad = joined[~(kind_ok & delta_ok)].index.tolist()
+            raise ValueError(f"Legacy case reproduction failed for {gate_name}: {bad}")
+
+
 def verify_against_legacy_summary(gate_frames: dict[str, pd.DataFrame]) -> None:
     """Fail closed unless the legacy5 full-archive recomputation reproduces run1."""
     if not LEGACY_SUMMARY_PATH.exists():
@@ -305,7 +336,12 @@ def verify_against_legacy_summary(gate_frames: dict[str, pd.DataFrame]) -> None:
 
 
 def main() -> None:
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    if OUT_DIR.exists():
+        raise FileExistsError(
+            f"Output root already exists: {OUT_DIR}. "
+            "Refusing to overwrite an existing run; bump RUN_ID instead."
+        )
+    OUT_DIR.mkdir(parents=True, exist_ok=False)
     cases = load_cases()
     cases = derive_validation_signals(cases)
 
@@ -316,6 +352,7 @@ def main() -> None:
         for name in LEGACY_GATES
     }
     verify_against_legacy_summary(legacy_frames)
+    verify_against_legacy_cases(legacy_frames)
     families["legacy5"] = (legacy_frames, "safe_only")
 
     nested_frames = {
@@ -391,16 +428,33 @@ def main() -> None:
     overall = pd.DataFrame(overall_rows)
     overall.to_csv(OUT_DIR / "outer_loto_overall_summary.csv", index=False)
 
+    output_files = (
+        "full_archive_gate_summary.csv",
+        "outer_development_gate_scores.csv",
+        "outer_loto_gate_choices.csv",
+        "outer_loto_case_results.csv",
+        "outer_loto_overall_summary.csv",
+    )
     manifest = {
-        "audit": "ieee_matched_objective_gate_audit_run1",
+        "audit": f"ieee_matched_objective_gate_audit_{RUN_ID}",
+        "run_id": RUN_ID,
         "date": str(date.today()),
+        "builder_file": str(Path(__file__).resolve().relative_to(ROOT)),
+        "builder_sha256": sha256(Path(__file__).resolve()),
         "spec_file": str(SPEC_PATH.relative_to(ROOT)),
         "spec_sha256": sha256(SPEC_PATH),
+        "spec_provenance_note": (
+            "local file metadata predates the audit output; no independently "
+            "timestamped preregistration exists"
+        ),
         "case_input": str(CASE_PATH.relative_to(ROOT)),
         "case_input_sha256": sha256(CASE_PATH),
         "legacy_summary_input": str(LEGACY_SUMMARY_PATH.relative_to(ROOT)),
         "legacy_summary_sha256": sha256(LEGACY_SUMMARY_PATH),
-        "legacy_reproduction_check": "passed_fail_closed",
+        "legacy_case_input": str(LEGACY_CASE_PATH.relative_to(ROOT)),
+        "legacy_case_sha256": sha256(LEGACY_CASE_PATH),
+        "legacy_reproduction_check": "passed_fail_closed_summary_and_all_225_case_rows",
+        "output_sha256": {name: sha256(OUT_DIR / name) for name in output_files},
         "bootstrap_seed": BOOTSTRAP_SEED,
         "bootstrap_reps": BOOTSTRAP_REPS,
         "semantics_note": (

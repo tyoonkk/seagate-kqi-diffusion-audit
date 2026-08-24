@@ -1,0 +1,28 @@
+{
+  "audit": "ieee_matched_objective_gate_audit_run2",
+  "bootstrap_reps": 10000,
+  "bootstrap_seed": 20260714,
+  "builder_file": "experiments\\seagate_kqi\\build_ieee_matched_objective_gate_audit.py",
+  "builder_sha256": "eb8846683a427577baa658f132298e37b021b170a20160a7527743e87d45bd4d",
+  "case_input": "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\selector_v12_final_validation_report_run1\\selector_v12_final_candidates_with_task_context.csv",
+  "case_input_sha256": "839f19a0bed3283dac522bc0716ffccd20554356a2fb79601872f193b62dc919",
+  "date": "2026-08-24",
+  "evidence_role": "retrospective attribution sensitivity on a historically test-exposed gate family; not prospective validation; does not replace the primary nested audit or the secondary LOTO audit.",
+  "legacy_case_input": "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_v10_uniform_grid_loto_audit_run1\\legacy_rule_case_results_recomputed.csv",
+  "legacy_case_sha256": "e66114279c57ff46d5d6b1a5425da970206a434a8f0fcad74e2d6291ad0fa303",
+  "legacy_reproduction_check": "passed_fail_closed_summary_and_all_225_case_rows",
+  "legacy_summary_input": "experiments\\seagate_kqi\\artifacts\\condition_aware_main\\ieee_v10_uniform_grid_loto_audit_run1\\legacy_rule_summary.csv",
+  "legacy_summary_sha256": "714b734d360bf0aa28003fd0435cf055f60aa823d8972c4706b6b153dd937240",
+  "output_sha256": {
+    "full_archive_gate_summary.csv": "50e302cf5dce6dc9a0f610e0c8744550f71aa65e472aea131590c291ed9a39eb",
+    "outer_development_gate_scores.csv": "306c27077a06f6e4a25d128be4111251d6fdac46686005a0547d3335632a7d66",
+    "outer_loto_case_results.csv": "9325d9352cdb75e5bf2d50f240b2cb41caeab815c0699eea559fde01de0d0c55",
+    "outer_loto_gate_choices.csv": "812e133e4ba3bd996a6fef261bacbbe45db0ac92c6b5ef2293671b938733711c",
+    "outer_loto_overall_summary.csv": "fc83ec3fa6e452c5a12c6b8880983261c6dff00b82388c7e7a1fcc9cbec42a3a"
+  },
+  "run_id": "run2",
+  "semantics_note": "nested7 gates applied as case-level vetoes on the fixed validation-best hybrid; strictly more conservative than the original select-best-passing-candidate semantics.",
+  "spec_file": "experiments\\seagate_kqi\\MATCHED_OBJECTIVE_GATE_AUDIT_SPEC.md",
+  "spec_provenance_note": "local file metadata predates the audit output; no independently timestamped preregistration exists",
+  "spec_sha256": "aab73c1cf5e9dd507d8d9ef4ad924e4c00a1c3ccd46b6ab5efa00cea12580df8"
+}

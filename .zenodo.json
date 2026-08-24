@@ -1,0 +1,19 @@
+{
+  "creators": [
+    {
+      "name": "Kim, Taeyoon",
+      "affiliation": "Department of Electrical and Computer Engineering, Inha University",
+      "orcid": "0009-0005-2264-6173"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "description": "Analysis scripts, archived audit outputs, exact input tables, and machine-readable summaries for the IEEE Access submission 'When Validation-Gated Diffusion Augmentation Fails to Generalize: A Retrospective Audit of Rare Seagate KQI Classification'.",
+  "keywords": [
+    "class imbalance",
+    "diffusion augmentation",
+    "negative results",
+    "manufacturing analytics",
+    "evidence reuse"
+  ]
+}

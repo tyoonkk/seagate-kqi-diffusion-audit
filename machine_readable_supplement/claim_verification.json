@@ -150,6 +150,108 @@
       "actual": -0.00039382143946573337,
       "expected": -0.0003938214394657333,
       "passed": true
+    },
+    {
+      "name": "matched_historical_conservative_selected",
+      "actual": 11.0,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "name": "matched_historical_conservative_mean",
+      "actual": 0.0085793066894532,
+      "expected": 0.008579306689453232,
+      "passed": true
+    },
+    {
+      "name": "matched_historical_mean_seeking_selected",
+      "actual": 11.0,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "name": "matched_historical_mean_seeking_mean",
+      "actual": 0.0085793066894532,
+      "expected": 0.008579306689453232,
+      "passed": true
+    },
+    {
+      "name": "matched_historical_harm_first_selected",
+      "actual": 11.0,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "name": "matched_historical_harm_first_mean",
+      "actual": 0.0085793066894532,
+      "expected": 0.008579306689453232,
+      "passed": true
+    },
+    {
+      "name": "matched_historical_negative_rows",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "matched_simple_conservative_selected",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "matched_simple_conservative_mean",
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    {
+      "name": "matched_simple_harm_first_selected",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "name": "matched_simple_mean_seeking_selected",
+      "actual": 32.0,
+      "expected": 32,
+      "passed": true
+    },
+    {
+      "name": "matched_simple_mean_seeking_mean",
+      "actual": 0.0049420457915582,
+      "expected": 0.004942,
+      "passed": true
+    },
+    {
+      "name": "matched_simple_mean_seeking_negative_rows",
+      "actual": 11.0,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "name": "matched_simple_mean_seeking_negative_tasks",
+      "actual": 3.0,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "name": "matched_simple_mean_seeking_ci_low",
+      "actual": -0.0088305413610763,
+      "expected": -0.008831,
+      "passed": true
+    },
+    {
+      "name": "matched_simple_mean_seeking_ci_high",
+      "actual": 0.0186018091255694,
+      "expected": 0.018602,
+      "passed": true
+    },
+    {
+      "name": "matched_simple_mean_seeking_minimum_task",
+      "actual": -0.034092420410617,
+      "expected": -0.034092,
+      "passed": true
     }
   ]
 }
