@@ -1,9 +1,17 @@
 {
   "creators": [
     {
-      "name": "Kim, Taeyoon",
+      "name": "Kim, Tae-Yoon",
       "affiliation": "Department of Electrical and Computer Engineering, Inha University",
       "orcid": "0009-0005-2264-6173"
+    },
+    {
+      "name": "Han, Young-Shin",
+      "affiliation": "Frontier College, Inha University"
+    },
+    {
+      "name": "Lee, Jong-Sik",
+      "affiliation": "Department of Computer Engineering, Inha University"
     }
   ],
   "license": "MIT",
