@@ -1,0 +1,7 @@
+# Preserve archived audit bytes exactly: the audit manifests record SHA-256
+# of the files as written (CRLF on Windows). Do not normalize line endings.
+*.csv -text
+*.json -text
+*.md -text
+*.py -text
+*.txt -text

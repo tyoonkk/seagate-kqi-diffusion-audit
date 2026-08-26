@@ -59,7 +59,7 @@ bootstrap draws use NumPy `default_rng(20260714)` with 10,000 resamples.
 
 Each audit directory carries its own README and SHA-256 manifest.
 `machine_readable_supplement/claim_verification.json` records the
-claim-by-claim check that every number in the manuscript matches its source
+claim-by-claim check that the 42 principal numeric claims in the manuscript match their source
 artifact. The matched-objective audit additionally binds its pre-analysis
 specification and its input tables by SHA-256 in each run's
 `audit_manifest.json`; the specification's local file metadata predates the
