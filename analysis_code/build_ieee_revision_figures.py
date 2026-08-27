@@ -62,12 +62,18 @@ def setup() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
 
 
+# FancyBboxPatch draws its border this far OUTSIDE the nominal xy/width/height.
+# Every connector must start and stop on the padded border, not the nominal one,
+# or the line visibly pokes into the box.
+BOX_PAD = 0.008
+
+
 def add_box(ax, xy, width, height, title, body, facecolor, edgecolor=BLUE):
     patch = FancyBboxPatch(
         xy,
         width,
         height,
-        boxstyle="round,pad=0.008,rounding_size=0.015",
+        boxstyle=f"round,pad={BOX_PAD},rounding_size=0.015",
         linewidth=1.2,
         edgecolor=edgecolor,
         facecolor=facecolor,
@@ -124,48 +130,86 @@ def information_boundaries() -> None:
     ax.set_ylim(0, 1)
     ax.axis("off")
 
-    # Strict grid.  Main pipeline on one horizontal line (center y=0.62);
-    # training-only fit above, validation selection below; the historical
-    # feedback loop runs along the bottom band.  Every connector is
-    # orthogonal (right angles only).
-    add_box(ax, (0.02, 0.50), 0.14, 0.24, "Public Seagate arrays",
+    class Box:
+        """Nominal geometry plus the padded edges that connectors must touch."""
+
+        def __init__(self, x, y, w, h):
+            self.x, self.y, self.w, self.h = x, y, w, h
+
+        cx = property(lambda s: s.x + s.w / 2)
+        cy = property(lambda s: s.y + s.h / 2)
+        left = property(lambda s: s.x - BOX_PAD)
+        right = property(lambda s: s.x + s.w + BOX_PAD)
+        top = property(lambda s: s.y + s.h + BOX_PAD)
+        bottom = property(lambda s: s.y - BOX_PAD)
+
+    def line(pts, color=GRAY, style="-", width=1.2):
+        ax.plot([q[0] for q in pts], [q[1] for q in pts], color=color,
+                linestyle=style, linewidth=width, solid_capstyle="round", zorder=2)
+
+    def junction(x, y):
+        ax.plot([x], [y], marker="o", markersize=4.2, color=GRAY, zorder=4)
+
+    # Layout: one left-to-right pipeline on the centre line (y = 0.62).  The two
+    # data-boundary stages (training-only fit, validation selection) sit above
+    # and below it and rejoin at a single merge point in front of the frozen
+    # decision.  The historical feedback loop is one closed dashed path along
+    # the bottom band with the retrospective-development box inline on it.
+    arrays = Box(0.02, 0.50, 0.14, 0.24)
+    train = Box(0.25, 0.76, 0.17, 0.22)
+    valid = Box(0.25, 0.28, 0.17, 0.22)
+    frozen = Box(0.50, 0.50, 0.17, 0.24)
+    test = Box(0.72, 0.50, 0.11, 0.24)
+    report = Box(0.87, 0.50, 0.12, 0.24)
+    retro = Box(0.40, 0.03, 0.30, 0.17)
+    y_main = frozen.cy
+    x_split = 0.205
+    x_merge = 0.462
+    y_loop = retro.cy
+    x_return = valid.cx
+
+    add_box(ax, (arrays.x, arrays.y), arrays.w, arrays.h, "Public Seagate arrays",
             "fixed train / validation\n/ test splits", LIGHT_BLUE)
-    add_box(ax, (0.24, 0.74), 0.17, 0.24, "Training only",
+    add_box(ax, (train.x, train.y), train.w, train.h, "Training only",
             "imputation, constants,\nmodel and generator fit", "#E7F4EC", GREEN)
-    add_box(ax, (0.24, 0.26), 0.17, 0.24, "Validation",
+    add_box(ax, (valid.x, valid.y), valid.w, valid.h, "Validation",
             "candidate ranking,\nthresholds, task profiles", "#FFF1D6", ORANGE)
-    add_box(ax, (0.47, 0.50), 0.17, 0.24, "Frozen row decision",
+    add_box(ax, (frozen.x, frozen.y), frozen.w, frozen.h, "Frozen row decision",
             "hybrid candidate or\nconventional reference", LIGHT_BLUE)
-    add_box(ax, (0.70, 0.50), 0.11, 0.24, "Test",
+    add_box(ax, (test.x, test.y), test.w, test.h, "Test",
             "one row-level score\nafter selection", "#FDE8E8", RED)
-    add_box(ax, (0.86, 0.50), 0.12, 0.24, "Reported result",
+    add_box(ax, (report.x, report.y), report.w, report.h, "Reported result",
             "task-cluster summaries\nand coverage", LIGHT_GRAY, GRAY)
+    add_box(ax, (retro.x, retro.y), retro.w, retro.h, "Retrospective policy development",
+            "archived test outcomes informed later gate families\nand task-specific refinements",
+            "#FFF0F0", RED)
 
-    # Forward flow.
-    elbow(ax, [(0.09, 0.74), (0.09, 0.86), (0.24, 0.86)])          # arrays -> training
-    elbow(ax, [(0.09, 0.50), (0.09, 0.38), (0.24, 0.38)])          # arrays -> validation
-    elbow(ax, [(0.41, 0.86), (0.555, 0.86), (0.555, 0.74)])        # training -> frozen (top)
-    elbow(ax, [(0.41, 0.38), (0.555, 0.38), (0.555, 0.50)])        # validation -> frozen (bottom)
-    elbow(ax, [(0.64, 0.62), (0.70, 0.62)])                         # frozen -> test
-    elbow(ax, [(0.81, 0.62), (0.86, 0.62)])                         # test -> reported
+    # Split: arrays -> (training, validation).
+    line([(arrays.right, y_main), (x_split, y_main)])
+    junction(x_split, y_main)
+    elbow(ax, [(x_split, y_main), (x_split, train.cy), (train.left, train.cy)])
+    elbow(ax, [(x_split, y_main), (x_split, valid.cy), (valid.left, valid.cy)])
 
-    # Historical feedback loop (dashed red, bottom band, right angles).
-    add_box(
-        ax,
-        (0.44, 0.02),
-        0.36,
-        0.18,
-        "Retrospective policy development",
-        "archived test outcomes informed later gate families\nand task-specific refinements",
-        "#FFF0F0",
-        RED,
-    )
-    elbow(ax, [(0.755, 0.50), (0.755, 0.20)], color=RED, style="--", width=1.4)   # test -> feedback
-    elbow(ax, [(0.44, 0.11), (0.325, 0.11), (0.325, 0.26)], color=RED, style="--", width=1.4)  # feedback -> validation
+    # Merge: (training, validation) -> frozen decision, entering from the left.
+    line([(train.right, train.cy), (x_merge, train.cy), (x_merge, y_main)])
+    line([(valid.right, valid.cy), (x_merge, valid.cy), (x_merge, y_main)])
+    junction(x_merge, y_main)
+    elbow(ax, [(x_merge, y_main), (frozen.left, y_main)])
+
+    # Main line.
+    elbow(ax, [(frozen.right, y_main), (test.left, y_main)])
+    elbow(ax, [(test.right, y_main), (report.left, y_main)])
+
+    # Historical feedback loop (dashed red): test -> retrospective development
+    # -> validation, one continuous path with the retrospective box inline.
+    elbow(ax, [(test.cx, test.bottom), (test.cx, y_loop), (retro.right, y_loop)],
+          color=RED, style="--", width=1.4)
+    elbow(ax, [(retro.left, y_loop), (x_return, y_loop), (x_return, valid.bottom)],
+          color=RED, style="--", width=1.4)
 
     ax.text(
         0.02,
-        0.045,
+        0.06,
         "Independent evidence is not implied by new RNG seeds on the same arrays.\n"
         "Time-series-1 and SECOM are reported separately as transfer stress tests.",
         ha="left",
@@ -177,7 +221,6 @@ def information_boundaries() -> None:
     fig.tight_layout(pad=0.4)
     for suffix in ("pdf", "png"):
         fig.savefig(OUT / f"study_information_boundaries.{suffix}", dpi=300, bbox_inches="tight")
-    plt.close(fig)
 
 
 def task_effects() -> None:
