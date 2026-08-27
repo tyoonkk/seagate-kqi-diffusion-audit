@@ -4,7 +4,7 @@ Companion repository for the IEEE Access submission:
 
 > **When Validation-Gated Diffusion Augmentation Fails to Generalize:
 > A Retrospective Audit of Rare Seagate KQI Classification**
-> Taeyoon Kim, Inha University
+> Tae-Yoon Kim, Young-Shin Han, and Jong-Sik Lee, Inha University
 
 This repository provides numerical traceability for every reported result:
 the analysis scripts, the archived audit outputs they produced, the exact

@@ -8,7 +8,9 @@ actual value is read from the archived audit output.  Fails closed.
 
 from __future__ import annotations
 
+import hashlib
 import json
+import shutil
 from pathlib import Path
 
 import pandas as pd
@@ -23,6 +25,28 @@ CLAIMS = (
     ROOT
     / "experiments/seagate_kqi/paper/ieee_access_revision_2026/claim_verification.json"
 )
+MACHINE = ROOT / "experiments/seagate_kqi/paper/ieee_access_revision_2026/machine_readable"
+MANIFEST = MACHINE / "SHA256_MANIFEST.json"
+
+
+def _sha256(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def sync_machine_readable() -> None:
+    """Copy the 42-check file into machine_readable/ and refresh its manifest entry.
+
+    build_ieee_submission_tables.py writes the manifest before this script appends
+    the matched-audit checks, so the copy and the manifest row are refreshed here.
+    The manifest never lists itself.
+    """
+    shutil.copy2(CLAIMS, MACHINE / CLAIMS.name)
+    manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    extract = manifest["submission_extract_sha256"]
+    extract.pop(MANIFEST.name, None)
+    extract[CLAIMS.name] = _sha256(MACHINE / CLAIMS.name)
+    manifest["submission_extract_sha256"] = dict(sorted(extract.items()))
+    MANIFEST.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
 
 # (check name, family, objective, column, value printed in the manuscript)
 EXPECTED = [
@@ -74,6 +98,8 @@ def main() -> int:
     )
 
     failed = [c["name"] for c in payload["checks"] if not c["passed"]]
+    if not failed:
+        sync_machine_readable()
     print(f"added={added} total={len(payload['checks'])} all_passed={payload['all_passed']}")
     if failed:
         print("FAILED:", failed)

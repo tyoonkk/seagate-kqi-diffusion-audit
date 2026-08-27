@@ -290,8 +290,12 @@ def main() -> None:
 
     manifest = {
         "source_sha256": {str(path): sha256(path) for path in sources.values()},
+        # The manifest must not hash itself: a self-entry can only ever record
+        # the hash of a previous manifest, so it is excluded from the listing.
         "submission_extract_sha256": {
-            path.name: sha256(path) for path in sorted(MACHINE.iterdir()) if path.is_file()
+            path.name: sha256(path)
+            for path in sorted(MACHINE.iterdir())
+            if path.is_file() and path.name != "SHA256_MANIFEST.json"
         },
     }
     (MACHINE / "SHA256_MANIFEST.json").write_text(
