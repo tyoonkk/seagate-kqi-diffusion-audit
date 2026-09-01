@@ -69,3 +69,18 @@ audit output, but no independently timestamped preregistration exists.
 
 MIT (see `LICENSE`). The Seagate source data remain under their own
 Apache-2.0 license at the repository above.
+
+## v1.5 additions (2026-09-01, review response)
+
+- `machine_readable_supplement/primary_nested_audit_spec.json`: complete
+  machine-readable specification of the primary task-independent nested audit
+  (candidate families, the internal 24-configuration grid and
+  validation-winner rule, the seven gates with exact thresholds, fold roster,
+  objectives and deterministic tie-breaks, metric definitions, run-local
+  reference provenance, input/output SHA-256 hashes, and the mapping to the
+  primary rows of the article).
+- `analysis_code/build_primary_nested_audit_spec.py`: the script that
+  generated the specification from the archived audit outputs.
+- `audit_artifacts/secom_external_frozen_seal/v11_frozen_rule_manifest.json`:
+  the frozen-rule manifest (sealed 2026-07-11) that preceded the blind SECOM
+  transfer audit.

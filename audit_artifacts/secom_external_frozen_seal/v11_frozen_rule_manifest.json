@@ -1,0 +1,295 @@
+{
+  "selector_family": "SECOM_V11_ratio1_escape",
+  "status": "frozen_for_future_test_free_seal",
+  "recommended_rule": "v11_support_or_ratio1",
+  "recommended_rule_spec": {
+    "rule_name": "v11_support_or_ratio1",
+    "escape_ratio": 1.0,
+    "profile_class": "opportunity",
+    "topk_max": 0.15,
+    "blocked_safe_method": "random_under",
+    "scenario": "S3_IG",
+    "ratio_max": 1.0,
+    "min_val_gain": 0.0,
+    "max_fpr_excess": 0.0,
+    "local_min_val_gain": -0.02,
+    "local_max_fpr_excess": 0.0,
+    "local_ratio_factor": 2.0,
+    "local_support_min": 2
+  },
+  "rule_family": [
+    {
+      "rule_name": "v11_support_only",
+      "escape_ratio": null,
+      "profile_class": "opportunity",
+      "topk_max": 0.15,
+      "blocked_safe_method": "random_under",
+      "scenario": "S3_IG",
+      "ratio_max": 1.0,
+      "min_val_gain": 0.0,
+      "max_fpr_excess": 0.0,
+      "local_min_val_gain": -0.02,
+      "local_max_fpr_excess": 0.0,
+      "local_ratio_factor": 2.0,
+      "local_support_min": 2
+    },
+    {
+      "rule_name": "v11_support_or_ratio0p25",
+      "escape_ratio": 0.25,
+      "profile_class": "opportunity",
+      "topk_max": 0.15,
+      "blocked_safe_method": "random_under",
+      "scenario": "S3_IG",
+      "ratio_max": 1.0,
+      "min_val_gain": 0.0,
+      "max_fpr_excess": 0.0,
+      "local_min_val_gain": -0.02,
+      "local_max_fpr_excess": 0.0,
+      "local_ratio_factor": 2.0,
+      "local_support_min": 2
+    },
+    {
+      "rule_name": "v11_support_or_ratio0p5",
+      "escape_ratio": 0.5,
+      "profile_class": "opportunity",
+      "topk_max": 0.15,
+      "blocked_safe_method": "random_under",
+      "scenario": "S3_IG",
+      "ratio_max": 1.0,
+      "min_val_gain": 0.0,
+      "max_fpr_excess": 0.0,
+      "local_min_val_gain": -0.02,
+      "local_max_fpr_excess": 0.0,
+      "local_ratio_factor": 2.0,
+      "local_support_min": 2
+    },
+    {
+      "rule_name": "v11_support_or_ratio1",
+      "escape_ratio": 1.0,
+      "profile_class": "opportunity",
+      "topk_max": 0.15,
+      "blocked_safe_method": "random_under",
+      "scenario": "S3_IG",
+      "ratio_max": 1.0,
+      "min_val_gain": 0.0,
+      "max_fpr_excess": 0.0,
+      "local_min_val_gain": -0.02,
+      "local_max_fpr_excess": 0.0,
+      "local_ratio_factor": 2.0,
+      "local_support_min": 2
+    }
+  ],
+  "primary_blocks": [
+    "122_141",
+    "142_161",
+    "162_181",
+    "182_201",
+    "202_221",
+    "222_241",
+    "242_261",
+    "262_281",
+    "282_301",
+    "302_321"
+  ],
+  "negative_control_block": "102_121",
+  "development_seed_max": 321,
+  "selection_uses_test": false,
+  "development_uses_exposed_test": true,
+  "development_interpretation": "Retrospective rule-family sensitivity only; all tests through seed 321 were exposed before a future V11 seal.",
+  "candidate_key_columns": [
+    "scenario",
+    "method",
+    "ratio",
+    "ddpm_train_mode",
+    "s3_synth_filter",
+    "s3_ig_keep_rate"
+  ],
+  "ranking": [
+    "val_fpr_excess_vs_safe ascending",
+    "val_gain_vs_safe descending",
+    "PR_AUC descending",
+    "candidate_key ascending"
+  ],
+  "candidate_generation": {
+    "baseline_validation_arguments": {
+      "learning_rate": 0.03,
+      "n_estimators": 300,
+      "num_leaves": 31
+    },
+    "baseline_candidate_keys_per_seed": [
+      "S0|none|ratio=0|||keep=nan",
+      "S1|random_over|ratio=0.5|||keep=nan",
+      "S1|random_over|ratio=1|||keep=nan",
+      "S1|random_over|ratio=2|||keep=nan",
+      "S1|random_under|ratio=10|||keep=nan",
+      "S1|random_under|ratio=5|||keep=nan",
+      "S1|smote|ratio=0.5|||keep=nan",
+      "S1|smote|ratio=1|||keep=nan",
+      "S1|smote|ratio=2|||keep=nan"
+    ],
+    "generative_validation_arguments": {
+      "batch_size": 64,
+      "cvae_epochs": 120,
+      "ddpm_epochs": 160,
+      "ddpm_steps": 50,
+      "device_requested": "cuda",
+      "device_resolved": "cuda",
+      "hidden_dim": 256,
+      "ig_keep_rates": [
+        0.25
+      ],
+      "latent_dim": 32,
+      "learning_rate": 0.03,
+      "model_seed_offset": 0,
+      "n_estimators": 300,
+      "num_leaves": 31,
+      "ratios": [
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "top_k": 10
+    },
+    "generated_candidate_keys_per_seed": [
+      "S2|cvae_positive_quick|ratio=0.25|||keep=nan",
+      "S2|cvae_positive_quick|ratio=0.5|||keep=nan",
+      "S2|cvae_positive_quick|ratio=1|||keep=nan",
+      "S2|cvae_positive_quick|ratio=2|||keep=nan",
+      "S3_IG|s1_plus_ddpm_ig_weighted|ratio=0.25|positive_only|ig_weighted|keep=0.25",
+      "S3_IG|s1_plus_ddpm_ig_weighted|ratio=0.5|positive_only|ig_weighted|keep=0.25",
+      "S3_IG|s1_plus_ddpm_ig_weighted|ratio=1|positive_only|ig_weighted|keep=0.25",
+      "S3_IG|s1_plus_ddpm_ig_weighted|ratio=2|positive_only|ig_weighted|keep=0.25",
+      "S3|ddpm_positive_quick|ratio=0.25|positive_only|none|keep=nan",
+      "S3|ddpm_positive_quick|ratio=0.5|positive_only|none|keep=nan",
+      "S3|ddpm_positive_quick|ratio=1|positive_only|none|keep=nan",
+      "S3|ddpm_positive_quick|ratio=2|positive_only|none|keep=nan"
+    ],
+    "s3ig_identity": {
+      "scenario": "S3_IG",
+      "method": "s1_plus_ddpm_ig_weighted",
+      "ddpm_train_mode": "positive_only",
+      "s3_synth_filter": "ig_weighted",
+      "s3_ig_keep_rate": 0.25,
+      "ratios": [
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ]
+    },
+    "expected_baseline_candidates_per_seed": 9,
+    "expected_generated_candidates_per_seed": 12,
+    "expected_combined_candidates_per_generated_seed": 21
+  },
+  "outer_block_lbo_selection": {
+    "training_strict_harm_count": 0,
+    "training_epsilon_harm_0p005_count": 0,
+    "minimum_selected_training_blocks": 2,
+    "negative_control_strict_harm_count": 0,
+    "negative_control_epsilon_harm_0p005_count": 0,
+    "ranking": [
+      "sum_gain_vs_safe descending",
+      "hybrid_selections descending",
+      "selected_blocks descending",
+      "family_order ascending"
+    ]
+  },
+  "fresh_success_criteria": {
+    "cases": 60,
+    "minimum_hybrid_selections": 2,
+    "strict_harm_count": 0,
+    "epsilon_harm_0p005_count": 0,
+    "mean_gain_vs_safe": "> 0"
+  },
+  "development_evidence": {
+    "primary": {
+      "scope": "primary_10_blocks",
+      "cases": 200,
+      "hybrid_selections": 8,
+      "selected_blocks": 4,
+      "strict_harm_count": 0,
+      "epsilon_harm_0p005_count": 0,
+      "sum_gain_vs_safe": 0.31549595404412933,
+      "mean_gain_vs_safe": 0.0015774797702206467,
+      "median_gain_vs_safe": 0.0,
+      "worst_gain_vs_safe": 0.0,
+      "best_gain_vs_safe": 0.08556802117418019
+    },
+    "negative_control": {
+      "scope": "negative_control_102_121",
+      "cases": 20,
+      "hybrid_selections": 1,
+      "selected_blocks": 1,
+      "strict_harm_count": 0,
+      "epsilon_harm_0p005_count": 0,
+      "sum_gain_vs_safe": 0.033192826073336096,
+      "mean_gain_vs_safe": 0.0016596413036668047,
+      "median_gain_vs_safe": 0.0,
+      "worst_gain_vs_safe": 0.0,
+      "best_gain_vs_safe": 0.033192826073336096
+    },
+    "outer_block_lbo": {
+      "scope": "outer_block_lbo_primary_10_blocks",
+      "cases": 200,
+      "hybrid_selections": 8,
+      "selected_blocks": 4,
+      "strict_harm_count": 0,
+      "epsilon_harm_0p005_count": 0,
+      "sum_gain_vs_safe": 0.31549595404412933,
+      "mean_gain_vs_safe": 0.0015774797702206467,
+      "median_gain_vs_safe": 0.0,
+      "worst_gain_vs_safe": 0.0,
+      "best_gain_vs_safe": 0.08556802117418019
+    },
+    "lbo_rule_choice_counts": {
+      "v11_support_or_ratio1": 10
+    }
+  },
+  "selector_code": {
+    "path": "C:\\Users\\taeyoon\\Desktop\\pythonproject_tabddpm-secom\\experiments\\secom_external\\run_external_selector_v11_ratio1_escape.py",
+    "sha256": "921731f5486b33e46c5307a7ba06cf928a8bb57a7c299a4816c7692dc851190b"
+  },
+  "validation_pipeline_code": {
+    "path": "C:\\Users\\taeyoon\\Desktop\\pythonproject_tabddpm-secom\\experiments\\secom_external\\run_secom_v11_blind_pipeline.py",
+    "sha256": "f29b23b0e2e1ee4a8820c2127059c44b6afd8e5b799869f01c09d209779466c9"
+  },
+  "development_outputs": {
+    "development_cases": {
+      "file": "v11_development_case_results.csv",
+      "sha256": "c2798b01f096280f24e21e93d38a74bead1684387430040f28bda4470978dd14"
+    },
+    "development_decisions": {
+      "file": "v11_development_validation_decisions.csv",
+      "sha256": "24a0e384b43ad954aeb27979a2e9e5686ab668714d7d8996526805fd80f8a54e"
+    },
+    "development_summary": {
+      "file": "v11_development_summary.csv",
+      "sha256": "82353e3879278980c611877dd994a24d1a8ac2f19e74fe91fd184f8fd421abcb"
+    },
+    "negative_control": {
+      "file": "v11_negative_control_case_results.csv",
+      "sha256": "087560e5b096f18abd7671fb9233018897bf8237773a94883804f8dc90b9a97f"
+    },
+    "lbo_choices": {
+      "file": "v11_lbo_rule_choices.csv",
+      "sha256": "6a24efbae51b04d7ba0494863c1e4eda01d336dedf48e4c86159c246ba06042e"
+    },
+    "lbo_training": {
+      "file": "v11_lbo_training_rule_scores.csv",
+      "sha256": "4263bd278d8e17fac1996fdc19452e33de37080c027b3a99285298b4b0f0aa73"
+    },
+    "lbo_cases": {
+      "file": "v11_lbo_case_results.csv",
+      "sha256": "261db4326c2d26e00c8920347db47d2dd3d96f2f11055249d9e31efca5fb8c5f"
+    },
+    "lbo_summary": {
+      "file": "v11_lbo_summary.csv",
+      "sha256": "8bd3d89e02523e68ac512aba45724bbb2a70d474280a07c76925c989e808d1e6"
+    },
+    "full_rule_scores": {
+      "file": "v11_full_development_rule_scores.csv",
+      "sha256": "07d54845845adbcff89d08a19a75aef2e336e4f9ec37948bed55991e06d03a89"
+    }
+  }
+}

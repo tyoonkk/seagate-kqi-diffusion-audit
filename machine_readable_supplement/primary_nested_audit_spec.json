@@ -1,0 +1,230 @@
+{
+  "schema": "seagate-audit-primary-nested-audit-spec-v1",
+  "audit_script": {
+    "relative_path": "experiments/seagate_kqi/build_ieee_task_independent_nested_audit.py",
+    "sha256": "d692321b615e5b41746409d58001482b99b610a439b4fcc795be9c83b54ead81",
+    "bootstrap": {
+      "rng": "numpy.default_rng",
+      "seed": 20260714,
+      "repetitions": 10000
+    }
+  },
+  "candidate_archive": {
+    "source": "quick_mean_alltasks (V9 candidate evidence table)",
+    "raw_grid": {
+      "rows": 1080,
+      "cases": 45,
+      "configurations_per_case": 24,
+      "families": {
+        "ig_clean": "real training rows plus cleaned importance-guided synthetic positives",
+        "ig_smote": "importance-guided synthetic positives followed by SMOTE",
+        "s1_plus_ig": "SMOTE S1 base followed by importance-guided synthetic positives"
+      },
+      "ddpm_train_modes": [
+        "positive_only",
+        "conditional_mixed"
+      ],
+      "augmentation_ratios": [
+        0.5,
+        1.0
+      ],
+      "synthetic_keep_rates": [
+        0.25,
+        0.75
+      ]
+    },
+    "family_winner_rule": {
+      "sort_descending": [
+        "validation PR-AUC",
+        "MCC",
+        "ROC-AUC",
+        "Recall",
+        "Precision"
+      ],
+      "winners_entering_audit": "45 cases x 3 family winners = 135 rows"
+    },
+    "run_provenance": {
+      "representation": "mean",
+      "classifier": "LightGBM, 400 trees (explicit, not quick-reduced)",
+      "diffusion_epochs": "200 requested on the command line; the --quick path overrides training to 10 epochs",
+      "synthetic_filter": "ig_weighted (importance-weighted filtering)",
+      "postprocessing": "none",
+      "base_smote_ratio": 0.5,
+      "s1_base_ratio": 0.5,
+      "selection_threshold_rule": "max_mcc"
+    },
+    "distinct_from": "the 24-candidate equal-budget grid of the secondary audit (6 ratios x 4 keep rates, single family s1_plus_ig, positive-only mode)"
+  },
+  "run_local_reference": {
+    "definition": "per task-seed validation-best conventional S0/S1 strategy recorded in the same archival run (descending validation PR-AUC)",
+    "observed_methods": {
+      "S1/smote": 15,
+      "S1/random_under_10to1": 12,
+      "S1/random_over": 10,
+      "S1/random_under_20to1": 8
+    },
+    "relation_to_equal_budget_reference": "numerically different in all 45 cases"
+  },
+  "gates": [
+    {
+      "name": "reference_only",
+      "description": "Always retain the validation-selected conventional reference.",
+      "min_val_gain": null,
+      "max_val_fpr_excess": null,
+      "positive_only": false,
+      "min_tstr_pr_auc": null,
+      "pass_all": false
+    },
+    {
+      "name": "validation_best",
+      "description": "Deploy the validation-best hybrid without an additional gate.",
+      "min_val_gain": null,
+      "max_val_fpr_excess": null,
+      "positive_only": false,
+      "min_tstr_pr_auc": null,
+      "pass_all": true
+    },
+    {
+      "name": "gain0_fpr0",
+      "description": "Require nonnegative validation PR-AUC gain and no validation FPR increase.",
+      "min_val_gain": 0.0,
+      "max_val_fpr_excess": 0.0,
+      "positive_only": false,
+      "min_tstr_pr_auc": null,
+      "pass_all": false
+    },
+    {
+      "name": "gain005_fpr0",
+      "description": "Require validation PR-AUC gain >= 0.005 and no validation FPR increase.",
+      "min_val_gain": 0.005,
+      "max_val_fpr_excess": 0.0,
+      "positive_only": false,
+      "min_tstr_pr_auc": null,
+      "pass_all": false
+    },
+    {
+      "name": "gain01_fpr01",
+      "description": "Require validation PR-AUC gain >= 0.01 and validation FPR excess <= 0.01.",
+      "min_val_gain": 0.01,
+      "max_val_fpr_excess": 0.01,
+      "positive_only": false,
+      "min_tstr_pr_auc": null,
+      "pass_all": false
+    },
+    {
+      "name": "positive_gain0_fpr01",
+      "description": "Positive-only generation with nonnegative validation gain and FPR excess <= 0.01.",
+      "min_val_gain": 0.0,
+      "max_val_fpr_excess": 0.01,
+      "positive_only": true,
+      "min_tstr_pr_auc": null,
+      "pass_all": false
+    },
+    {
+      "name": "positive_tstr_gain0",
+      "description": "Positive-only generation with TSTR >= 0.008, nonnegative gain, and FPR excess <= 0.01.",
+      "min_val_gain": 0.0,
+      "max_val_fpr_excess": 0.01,
+      "positive_only": true,
+      "min_tstr_pr_auc": 0.008,
+      "pass_all": false
+    }
+  ],
+  "metric_definitions": {
+    "validation_gain": "candidate validation PR-AUC minus run-local reference validation PR-AUC",
+    "validation_fpr_excess": "candidate validation FPR minus run-local reference validation FPR (val_FPR - safe_baseline_val_FPR), each model scored at its own validation-selected max-MCC threshold",
+    "threshold_rule": "max_mcc (validation-derived per model)",
+    "tstr_pr_auc": "train-synthetic-test-real PR-AUC evaluated on the real validation split; no test outcome involved"
+  },
+  "row_level_selection": {
+    "inputs": [
+      "validation gain",
+      "validation FPR excess",
+      "generation mode",
+      "TSTR PR-AUC"
+    ],
+    "test_fields_used": false,
+    "order": [
+      "validation PR-AUC desc",
+      "validation FPR excess asc",
+      "TSTR PR-AUC desc",
+      "candidate_key asc"
+    ],
+    "no_pass_action": "retain run-local reference",
+    "tstr_note": "TSTR PR-AUC is a selection-side diagnostic computed without any test outcome"
+  },
+  "outer_meta_selection": {
+    "folds": "leave-one-task-out over tasks [0,1,2,3,5,6,7,9,10]",
+    "development_signal": "archived test deltas of the eight development tasks x five repeats",
+    "held_out_test_access": "only after the gate and row decisions are fixed",
+    "objectives": {
+      "conservative": "eligible gates have zero negative development rows and zero negative development task means; reference_only if none",
+      "mean_seeking": "all gates eligible"
+    },
+    "tie_break_order": [
+      "task-macro mean desc",
+      "negative task count asc",
+      "negative row count asc",
+      "hybrid deployment count asc",
+      "gate name asc"
+    ]
+  },
+  "gate_family_provenance": {
+    "defined": "together with the audit script and executed immediately (2026-07-14 file timestamps)",
+    "sealed_prespecification": null,
+    "claim_scope": "archival outer-task replay of the seven evaluated gates; not prospective validation"
+  },
+  "inputs": {
+    "v9_candidate_evidence_table": {
+      "relative_path": "experiments/seagate_kqi/artifacts/condition_aware_main/selector_v9_certificate_mining_run1/v9_candidate_evidence_table.csv",
+      "sha256": "33bf656533e0c2ce2a371ab172a442e7f8cf2afc21614408a1d5390928ae977e"
+    },
+    "raw_validation_grid_1080_rows": {
+      "relative_path": "experiments/seagate_kqi/outputs/paper_strict/condition_hybrid_alltasks_seed42_46_quick_mean_run2/candidate_val_results.csv",
+      "sha256": "6f8f16acf6dbcf7182280a1a428ab2fc03f9a035121d20b8249e3289e95dd8f5"
+    },
+    "source_run_log_seed42": {
+      "relative_path": "experiments/seagate_kqi/outputs/paper_strict/condition_hybrid_alltasks_seed42_46_quick_mean_run2/condition_hybrid_alltasks_seed42_46_quick_mean_run2_seed42.log",
+      "sha256": "4db43b0ccbb30c501e330a8e271428c5f9ca2b5590e469df65ce3c747694da7f"
+    },
+    "reference_strategy_selection": {
+      "relative_path": "experiments/seagate_kqi/outputs/condition_aware/strategy_selection_results.csv",
+      "sha256": "b942e5a4b9d1adda65d8f40e4563de45f2eea5aafa612b66fbbbc5a1f9e1654e"
+    }
+  },
+  "output_root": "experiments/seagate_kqi/artifacts/condition_aware_main/ieee_task_independent_nested_audit_run1",
+  "artifact_sha256": {
+    "README.md": "665fa7a4e8c689438026583576ab9be2cd974a8f842ea39aa3363a38e3fb9a37",
+    "candidate_source_audit.csv": "aaaa7134638b71b9ce7913abe46c9ea9037118d0472c298f598b635dc13658eb",
+    "outer_fold_choices.csv": "33a2815efb26d642134e5d6735e38fb2eebe9a7bed5aac9d307f19b000d3b803",
+    "outer_heldout_rows.csv": "b374104e238d701943f0ca1053beed612f748007898736279270d41672579738",
+    "outer_train_policy_scores.csv": "7fd9403cb6b07eea585fe0097e942b7f0c0a0102bf06339e540fb9dd3202f965",
+    "policy_definitions.csv": "b606758ccc83e5664930a00ef4d71861178f3f6254e3c9d0ef55867b66ff25cb",
+    "summary.csv": "f0a407e477bdd4c2657aefab2554c69601d2d516610996123ad862dbcab6afd2",
+    "task_summary.csv": "afb18b6d92586c58e1bd10631f1785cda44785afaa8978b02a6a4fc96718d5d9"
+  },
+  "table5_row_mapping": {
+    "nested_conservative": {
+      "spec": "this file",
+      "outputs": [
+        "summary.csv",
+        "outer_fold_choices.csv",
+        "outer_heldout_rows.csv"
+      ]
+    },
+    "nested_mean_seeking": {
+      "spec": "this file",
+      "outputs": [
+        "summary.csv",
+        "outer_fold_choices.csv",
+        "outer_heldout_rows.csv"
+      ]
+    },
+    "equal_budget_loto": {
+      "spec": "secondary audit; see ieee_v10_uniform_grid_loto_audit_run1",
+      "outputs": [
+        "ieee_v10_uniform_grid_loto_audit_run1"
+      ]
+    }
+  }
+}
