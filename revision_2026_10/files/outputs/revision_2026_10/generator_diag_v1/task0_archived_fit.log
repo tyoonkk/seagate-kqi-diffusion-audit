@@ -1,0 +1,12 @@
+[TorchDDPM] gpu-resident batches enabled (0.1 MB)
+[TorchDDPM] epoch=0001 loss=0.984544
+[TorchDDPM] epoch=0020 loss=1.001330
+[TorchDDPM] epoch=0040 loss=1.008159
+[TorchDDPM] epoch=0060 loss=0.999466
+[TorchDDPM] epoch=0080 loss=0.978037
+[TorchDDPM] epoch=0100 loss=0.988023
+[TorchDDPM] epoch=0120 loss=0.990344
+[TorchDDPM] epoch=0140 loss=0.970993
+[TorchDDPM] epoch=0160 loss=0.972413
+[TorchDDPM] epoch=0180 loss=0.939161
+[TorchDDPM] epoch=0200 loss=0.933169

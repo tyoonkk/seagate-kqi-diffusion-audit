@@ -1,0 +1,7 @@
+task_set,analysis,n,same_kind,both_hybrid,delta_sign_agree_when_both_hybrid
+archive9,nested_conservative,45,42,0,0
+archive9,nested_mean_only,45,32,6,2
+archive9,loto,45,44,0,0
+all11,nested_conservative,55,55,0,0
+all11,nested_mean_only,55,36,9,4
+all11,loto,55,54,0,0

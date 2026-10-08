@@ -1,0 +1,3 @@
+regime,n_tasks,n_rows,task_macro_mean_delta,task_median_delta,negative_task_count,negative_row_count,hybrid_selection_count,hybrid_selection_rate,ci_low,ci_high
+conservative,9,45,0.0,0.0,0,0,0,0.0,0.0,0.0
+mean_only,9,45,-9.490834946094507e-05,0.0,3,5,10,0.2222222222222222,-0.0007483527917891543,0.0004190070228549996

@@ -1,0 +1,13 @@
+[OK] lgbm archive9 nested conservative: hybrid 3 neg 2 macro -0.001391 [-0.004174, +0.000000]
+[OK] lgbm archive9 nested mean_only: hybrid 15 neg 7 macro -0.000029 [-0.007222, +0.007945]
+[OK] lgbm archive9 LOTO: selected 0 neg 0 macro +0.000000 [+0.000000, +0.000000]
+[OK] lgbm all11 nested conservative: hybrid 0 neg 0 macro +0.000000 [+0.000000, +0.000000]
+[OK] lgbm all11 nested mean_only: hybrid 18 neg 10 macro -0.000170 [-0.006126, +0.006386]
+[OK] lgbm all11 LOTO: selected 0 neg 0 macro +0.000000 [+0.000000, +0.000000]
+[OK] xgb archive9 nested conservative: hybrid 0 neg 0 macro +0.000000 [+0.000000, +0.000000]
+[OK] xgb archive9 nested mean_only: hybrid 10 neg 5 macro -0.000095 [-0.000748, +0.000419]
+[OK] xgb archive9 LOTO: selected 1 neg 1 macro -0.000132 [-0.000397, +0.000000]
+[OK] xgb all11 nested conservative: hybrid 0 neg 0 macro +0.000000 [+0.000000, +0.000000]
+[OK] xgb all11 nested mean_only: hybrid 19 neg 7 macro +0.001669 [-0.000155, +0.004167]
+[OK] xgb all11 LOTO: selected 1 neg 1 macro -0.000108 [-0.000325, +0.000000]
+불일치: 0

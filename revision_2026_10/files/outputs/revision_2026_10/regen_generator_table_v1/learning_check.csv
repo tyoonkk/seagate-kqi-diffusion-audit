@@ -1,0 +1,1 @@
+task_id,seed,grid,mode,n_pos_fit,n_pos_hold,pool_size,n_cont,n_bin,best_step,steps_run,fit_seconds,loss_cont_model,loss_cont_zero,loss_cont_gauss,loss_bin_model,loss_bin_marginal,loss_bin_copy,bin_rate_fit_mean,bin_rate_syn_mean,bin_rate_abs_err,c2st_hold,ks_hold,corr_err_hold,dcr_ratio,mem_p05,tstr_internal_syn,tstr_internal_real,n_const_syn

@@ -84,3 +84,18 @@ Apache-2.0 license at the repository above.
 - `audit_artifacts/secom_external_frozen_seal/v11_frozen_rule_manifest.json`:
   the frozen-rule manifest (sealed 2026-07-11) that preceded the blind SECOM
   transfer audit.
+
+## v2.0 additions (2026-10, revision)
+
+- `revision_2026_10/`: materials of the revision in which the candidate archive
+  was rebuilt for all 11 endpoints with a corrected diffusion generator and
+  evaluated with both LightGBM and XGBoost. It contains the code, the generator
+  configuration, the protocol recorded with checksums before the run, the
+  lightweight outputs (validation and test metrics of every candidate, audit
+  outputs, generator diagnostics), and the script that produces every number of
+  the revised text. `revision_2026_10/README.md` describes the layout and how to
+  re-run; `revision_2026_10/restore_workspace_layout.py` rebuilds the original
+  workspace paths and checks every SHA-256.
+- The fitted generator weights and the generated pools (4.1 GB) are not stored
+  in the repository. `revision_2026_10/EXCLUDED_HEAVY_FILES.json` lists them with
+  their sizes and SHA-256 hashes.

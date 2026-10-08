@@ -1,0 +1,9 @@
+{
+  "finished_utc": "2026-10-07T15:31:43.229812+00:00",
+  "settings": {
+    "quick_10ep": 10,
+    "full_200ep": 200
+  },
+  "limit": 0,
+  "code_sha256": "aa8f3fba5d609892a9bd653f463382f037a429972140fa200da1bd59b02eb7a8"
+}

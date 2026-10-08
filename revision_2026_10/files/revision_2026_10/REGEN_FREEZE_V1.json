@@ -1,0 +1,23 @@
+{
+  "schema_id": "seagate-revision-regen-freeze-v1",
+  "lineage": "Seagate negative-audit (제출한 논문, MDPI electronics-4573451)",
+  "frozen_utc": "2026-10-07T04:58:05.432647+00:00",
+  "files": {
+    "experiments/seagate_kqi/revision_2026_10/REGEN_PROTOCOL_V1_KO.md": "e017f73de013aba7d1452143221df819f5e8f08b70e9793d2e39574551ecd419",
+    "experiments/seagate_kqi/revision_2026_10/run_regen_archive_v1.py": "8e6777cc241373cf06afe6982698c770007adba3811db6625f8f5b18a8c1035b",
+    "experiments/seagate_kqi/revision_2026_10/augmenters_torch_ddpm_v2.py": "f1d65c73267623ee26f44cba72db086bb16c4d9e9c14c47dc50c84dddee09a00",
+    "experiments/seagate_kqi/revision_2026_10/augmenters_torch_ddpm_v3.py": "ec3554f1c70de8f30cf6950f5eb3b45aba6edf93abc1ff7a6196a94576376865",
+    "experiments/seagate_kqi/revision_2026_10/generator_config_v3_final.json": "67f3e7cf0a26f36318edb5a9f81d8edb5d280cbe214eacb5d37959ec3d41eab8",
+    "experiments/seagate_kqi/revision_2026_10/build_regen_audits_v1.py": "2e2b210a52070f1e017ab9cca1c6d7704cba2e2feeec3d2d7fd1cc23b8c8a3bb",
+    "experiments/seagate_kqi/revision_2026_10/validate_regen_audits_v1.py": "7eccffad7bc32be79084d81b96b2fd1311bc53b0f43698fd1234cb50b5553103",
+    "experiments/seagate_kqi/revision_2026_10/build_regen_generator_table_v1.py": "8d38a1c1d94856b1a75e326c69e8cbd0c33cd472a2d1829e0d6a32cd08824364",
+    "experiments/seagate_kqi/run_pipeline.py": "d51911a84e80c10f8daf8b64359b5aad8a55047e99a1dd06d71853a0465fac23",
+    "experiments/seagate_kqi/build_ieee_task_independent_nested_audit.py": "d692321b615e5b41746409d58001482b99b610a439b4fcc795be9c83b54ead81",
+    "experiments/seagate_kqi/build_ieee_v10_uniform_grid_loto_audit.py": "c3b4e41316b4fee0e24ad382fd7b14b700ad05ffe90e0fce9d8c3d4dbb576804",
+    "experiments/seagate_kqi/build_ieee_matched_objective_gate_audit.py": "eb8846683a427577baa658f132298e37b021b170a20160a7527743e87d45bd4d",
+    "experiments/seagate_kqi/analyze_task10_v9_targeted_sweep.py": "96589ddbaa8046f30f6db992b53a40c3cd4083a46a52ac82583ac1f46719cd5f",
+    "experiments/seagate_kqi/outputs/revision_2026_10/importance_all11_v1/task_feature_importance.csv": "4070eed0323fc2d0814b27427b6d5bbadbf30c36549aeab3546ab11208eca3bd",
+    "experiments/seagate_kqi/outputs/revision_2026_10/importance_all11_v1/MERGE_RECORD.json": "63b894b225183ec84455da0878c59511d4c60bd689fd7594badf1ff52d37f793"
+  },
+  "note": "동결 뒤 이 파일들을 고치지 않는다. 결과를 보기 전에 만든 기록이다."
+}

@@ -1,0 +1,933 @@
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\torch\cuda\__init__.py:65: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+[12:31:26] °úÁ¦ 0: ÇĞ½À 143.7ÃÊ, ÃÖÀû 2500/4500
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[12:31:48]   bf16_post  Ç¥ÁØÆíÂ÷ºñ 0.643  C2ST(¶¼¾îµĞ) 0.886  KS 0.114  »ó°ü¿ÀÂ÷ 0.853  DCRºñ 1.74  ±â¾ï 0.000  TSTR³»ºÎ 0.3763  »ó¼öÈ­ 40
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[12:32:06]   fp32_post  Ç¥ÁØÆíÂ÷ºñ 0.643  C2ST(¶¼¾îµĞ) 0.882  KS 0.114  »ó°ü¿ÀÂ÷ 0.853  DCRºñ 1.74  ±â¾ï 0.000  TSTR³»ºÎ 0.3932  »ó¼öÈ­ 40
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[12:32:24]   fp32_beta  Ç¥ÁØÆíÂ÷ºñ 0.644  C2ST(¶¼¾îµĞ) 0.890  KS 0.114  »ó°ü¿ÀÂ÷ 0.852  DCRºñ 1.74  ±â¾ï 0.000  TSTR³»ºÎ 0.4257  »ó¼öÈ­ 40
+[12:36:29] °úÁ¦ 5: ÇĞ½À 244.1ÃÊ, ÃÖÀû 5250/7250
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[12:36:55]   bf16_post  Ç¥ÁØÆíÂ÷ºñ 0.869  C2ST(¶¼¾îµĞ) 0.804  KS 0.041  »ó°ü¿ÀÂ÷ 0.569  DCRºñ 1.17  ±â¾ï 0.000  TSTR³»ºÎ 0.1942  »ó¼öÈ­ 17
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[12:37:27]   fp32_post  Ç¥ÁØÆíÂ÷ºñ 0.869  C2ST(¶¼¾îµĞ) 0.803  KS 0.041  »ó°ü¿ÀÂ÷ 0.569  DCRºñ 1.17  ±â¾ï 0.000  TSTR³»ºÎ 0.1842  »ó¼öÈ­ 17
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[12:38:01]   fp32_beta  Ç¥ÁØÆíÂ÷ºñ 0.872  C2ST(¶¼¾îµĞ) 0.802  KS 0.041  »ó°ü¿ÀÂ÷ 0.569  DCRºñ 1.18  ±â¾ï 0.000  TSTR³»ºÎ 0.1871  »ó¼öÈ­ 17
+[12:54:58] °úÁ¦ 10: ÇĞ½À 1006.1ÃÊ, ÃÖÀû 29500/30000
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[12:55:52]   bf16_post  Ç¥ÁØÆíÂ÷ºñ 0.984  C2ST(¶¼¾îµĞ) 1.000  KS 0.016  »ó°ü¿ÀÂ÷ 0.593  DCRºñ 4.06  ±â¾ï 0.000  TSTR³»ºÎ 0.0490  »ó¼öÈ­ 117
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[12:57:17]   fp32_post  Ç¥ÁØÆíÂ÷ºñ 0.985  C2ST(¶¼¾îµĞ) 1.000  KS 0.016  »ó°ü¿ÀÂ÷ 0.596  DCRºñ 4.06  ±â¾ï 0.000  TSTR³»ºÎ 0.0498  »ó¼öÈ­ 118
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+C:\Users\taeyoon\Desktop\±èÅÂÀ±_¼®»ç\pythonproject_tabddpm\.venv_gpu\Lib\site-packages\sklearn\utils\validation.py:2691: UserWarning: X does not have valid feature names, but LGBMClassifier was fitted with feature names
+  warnings.warn(
+[12:58:41]   fp32_beta  Ç¥ÁØÆíÂ÷ºñ 0.987  C2ST(¶¼¾îµĞ) 1.000  KS 0.016  »ó°ü¿ÀÂ÷ 0.595  DCRºñ 4.07  ±â¾ï 0.000  TSTR³»ºÎ 0.0491  »ó¼öÈ­ 118
+[12:58:41] ³¡

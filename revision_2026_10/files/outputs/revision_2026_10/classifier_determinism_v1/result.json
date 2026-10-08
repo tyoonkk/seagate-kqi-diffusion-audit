@@ -1,0 +1,28 @@
+{
+  "task_id": 0,
+  "seed": 42,
+  "train_rows": 4714,
+  "results": {
+    "lightgbm_cpu": {
+      "max_abs_diff": 0.0,
+      "identical": true,
+      "n_val_rows": 941
+    },
+    "lightgbm_gpu": {
+      "max_abs_diff": 0.30156571149238687,
+      "identical": false,
+      "n_val_rows": 941
+    },
+    "xgboost_cuda": {
+      "max_abs_diff": 0.0,
+      "identical": true,
+      "n_val_rows": 941
+    }
+  },
+  "versions": {
+    "lightgbm": "4.6.0",
+    "xgboost": "3.2.0"
+  },
+  "created_utc": "2026-10-07T14:38:29.714686+00:00",
+  "code_sha256": "e94e2194baec7f8244845bf6b28f089bb310aeef4682eafea603b39c45e5358a"
+}

@@ -1,0 +1,263 @@
+{
+  "schema_id": "seagate-revision-regen-archive-v1",
+  "lineage": "Seagate negative-audit (제출한 논문, MDPI electronics-4573451)",
+  "started_utc": "2026-10-07T04:58:22.433755+00:00",
+  "argv": [
+    "experiments\\seagate_kqi\\revision_2026_10\\run_regen_archive_v1.py",
+    "--run-name",
+    "regen_archive_v1_run1",
+    "--generator-config",
+    "experiments\\seagate_kqi\\revision_2026_10\\generator_config_v3_final.json",
+    "--tasks",
+    "10,9,4,0,3"
+  ],
+  "base_cfg": {
+    "data_root": ".venv/softsensing_data_full",
+    "toolset": "time-series-2",
+    "representation": "mean",
+    "x_mmap_mode": "r",
+    "use_rep_cache": true,
+    "rep_cache_dir": "experiments/seagate_kqi/cache",
+    "taskwise_representation": false,
+    "seed": 42,
+    "top_k_tasks": 3,
+    "explicit_task_ids": null,
+    "min_valid_per_task": 500,
+    "scenarios": [
+      "S0",
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "gen_ratios": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "drop_constant": true,
+    "imputer_strategy": "mean",
+    "lgbm_n_estimators": 400,
+    "lgbm_learning_rate": 0.05,
+    "lgbm_num_leaves": 63,
+    "lgbm_subsample": 0.9,
+    "lgbm_colsample_bytree": 0.9,
+    "lgbm_device_type": "cpu",
+    "lgbm_gpu_platform_id": 0,
+    "lgbm_gpu_device_id": 0,
+    "threshold_rule": "max_mcc",
+    "recall_target": 0.9,
+    "fpr_caps": [
+      0.01,
+      0.02,
+      0.05
+    ],
+    "strict_eval": false,
+    "selection_metric": "PR_AUC",
+    "selection_threshold_rule": "max_mcc",
+    "paper_task_mode": "explicit_or_topk",
+    "s1_under_neg_pos_ratios": [
+      20.0,
+      10.0
+    ],
+    "s1_include_smote": true,
+    "s1_smote_k_neighbors": 5,
+    "s2_train_neg_multiplier": 10.0,
+    "s2_methods": [
+      "cvae",
+      "cgan"
+    ],
+    "cvae_latent_dim": 32,
+    "cvae_hidden": 256,
+    "cvae_epochs": 40,
+    "cvae_batch_size": 256,
+    "cvae_lr": 0.001,
+    "cvae_beta": 0.001,
+    "cgan_noise_dim": 64,
+    "cgan_hidden": 256,
+    "cgan_epochs": 80,
+    "cgan_batch_size": 256,
+    "cgan_lr": 0.0002,
+    "torch_device": "cuda",
+    "torch_use_amp": true,
+    "loader_num_workers": 0,
+    "loader_pin_memory": true,
+    "generator_gpu_resident": true,
+    "generator_gpu_resident_max_mb": 2048,
+    "ddpm_T": 100,
+    "ddpm_beta_start": 0.0001,
+    "ddpm_beta_end": 0.02,
+    "ddpm_time_dim": 128,
+    "ddpm_class_dim": 16,
+    "ddpm_hidden_dim": 256,
+    "ddpm_n_layers": 4,
+    "ddpm_dropout": 0.1,
+    "ddpm_epochs": 30,
+    "ddpm_batch_size": 256,
+    "ddpm_lr": 0.001,
+    "ddpm_device": "cuda",
+    "ddpm_train_mode": "conditional_mixed",
+    "strict_ddpm_train_modes": [
+      "positive_only",
+      "conditional_mixed"
+    ],
+    "ddpm_neg_multiplier": 3.0,
+    "ddpm_max_neg": 100000,
+    "ddpm_scale": "quantile",
+    "ddpm_core_variant": "baseline",
+    "ddpm_featurewise_spike_scale": 0.6,
+    "ddpm_featurewise_corr_scale": 0.8,
+    "ddpm_sampler_correction_every": 10,
+    "ddpm_sampler_correction_alpha": 0.2,
+    "ddpm_sampler_corr_rank": 4,
+    "s3_auto_mode_by_pos_rate": false,
+    "s3_positive_only_max_rate": 0.015,
+    "s3_synth_filter": "none",
+    "s3_synth_filter_k": 5,
+    "s3_synth_pool_multiplier": 1.0,
+    "s3_ig_importance_path": "experiments/seagate_kqi/outputs/revision_2026_10/importance_all11_v1/task_feature_importance.csv",
+    "s3_ig_top_k": 10,
+    "s3_ig_keep_rates": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "s3_hybrid_methods": [
+      "ig_only",
+      "ig_clean",
+      "ig_smote",
+      "s1_plus_ig"
+    ],
+    "s3_hybrid_smote_ratio": 0.5,
+    "s3_hybrid_s1_ratio": 0.5,
+    "s3_hybrid_clean_keep_rate": 0.5,
+    "s3_postprocess": "none",
+    "s3_postprocess_low_q": 0.01,
+    "s3_postprocess_high_q": 0.99,
+    "s3_postprocess_anchor_alpha": 0.25,
+    "s3_postprocess_corr_top_k": 6,
+    "s3_postprocess_group_top_features": 8,
+    "s3_postprocess_pca_var": 0.99,
+    "output_root": "experiments/seagate_kqi/outputs",
+    "run_name": "",
+    "cars_canary_probe": false,
+    "cars_canary_q": 0.1,
+    "cars_canary_max_n": 5000,
+    "cars_canary_min_n": 20,
+    "cars_canary_distance_top_k": 32,
+    "cars_canary_distance_max_neg": 10000,
+    "cars_candidate_replay": false,
+    "cars_candidate_replay_include_test": false,
+    "cars_candidate_replay_save_predictions": false,
+    "cars_bw_prototype": false,
+    "cars_bw_variants": [
+      "balanced"
+    ],
+    "cars_bw_min_weight": 0.05,
+    "cars_bw_max_weight": 1.0,
+    "cars_bw_power": 1.0,
+    "cars_bw_top_k_features": 32,
+    "cars_bw_sort_synthetic": false,
+    "cars_bw_normalize_mean": false
+  },
+  "generator_cfg": {
+    "T": 1000,
+    "beta_start": 0.0001,
+    "beta_end": 0.02,
+    "hidden_dim": 1024,
+    "n_blocks": 4,
+    "time_dim": 128,
+    "dropout": 0.1,
+    "train_steps": 40000,
+    "batch_size": 256,
+    "lr": 0.0005,
+    "weight_decay": 0.0001,
+    "warmup_steps": 500,
+    "grad_clip": 1.0,
+    "ema_decay": 0.999,
+    "log_every": 500,
+    "sample_batch": 4096,
+    "device": "cuda",
+    "standardize": true,
+    "holdout_frac": 0.2,
+    "min_holdout": 20,
+    "eval_every": 250,
+    "patience": 8,
+    "use_bf16": true
+  },
+  "output_path": "noclip_mixed",
+  "lgbm_device": "cpu",
+  "no_test": false,
+  "grids": {
+    "A": {
+      "modes": [
+        "positive_only",
+        "conditional_mixed"
+      ],
+      "ratios": [
+        0.5,
+        1.0
+      ],
+      "keep": [
+        0.25,
+        0.75
+      ],
+      "methods": [
+        "ig_clean",
+        "ig_smote",
+        "s1_plus_ig"
+      ],
+      "post": "none"
+    },
+    "B": {
+      "modes": [
+        "positive_only"
+      ],
+      "ratios": [
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.5,
+        2.0
+      ],
+      "keep": [
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "methods": [
+        "s1_plus_ig"
+      ],
+      "post": "featurewise_quantile_pos"
+    }
+  },
+  "classifiers": {
+    "lgbm": "run_pipeline.train_lgbm (400 trees, lr 0.05, 63 leaves, colsample 0.9, subsample 0.9 without subsample_freq, scale_pos_weight=neg/pos, device cpu)",
+    "xgb": "XGBClassifier(400 trees, lr 0.05, depth 6, subsample 0.9, colsample 0.9, hist, cuda, scale_pos_weight=neg/pos)"
+  },
+  "code_sha256": {
+    "run_regen_archive_v1.py": "8e6777cc241373cf06afe6982698c770007adba3811db6625f8f5b18a8c1035b",
+    "augmenters_torch_ddpm_v2.py": "f1d65c73267623ee26f44cba72db086bb16c4d9e9c14c47dc50c84dddee09a00",
+    "augmenters_torch_ddpm_v3.py": "ec3554f1c70de8f30cf6950f5eb3b45aba6edf93abc1ff7a6196a94576376865",
+    "run_pipeline.py": "d51911a84e80c10f8daf8b64359b5aad8a55047e99a1dd06d71853a0465fac23",
+    "importance_csv": "4070eed0323fc2d0814b27427b6d5bbadbf30c36549aeab3546ab11208eca3bd",
+    "generator_config": "67f3e7cf0a26f36318edb5a9f81d8edb5d280cbe214eacb5d37959ec3d41eab8"
+  },
+  "environment": {
+    "python": "3.11.2",
+    "torch": "2.10.0+cu126",
+    "torch_cuda": "12.6",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scikit_learn": "1.8.0",
+    "imbalanced_learn": "0.14.1",
+    "lightgbm": "4.6.0",
+    "xgboost": "3.2.0",
+    "scipy": "1.17.1",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 165 Stepping 5, GenuineIntel",
+    "gpu": "NVIDIA GeForce RTX 3070"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "purpose": "계열 A(제출한 Seagate 논문) 수정 실험용 중요도 표: 보관 9개 과제 행은 원본 그대로, 과제 4·8 은 같은 절차(compute_task_profiles.py 기본값, CPU LightGBM 400그루, 순열 1회, seed 42-46)로 새로 계산",
+  "procedure_check": "과제 9 seed 42 를 같은 절차로 다시 계산해 125/125 특징이 원본과 비트 단위로 같음 (outputs/revision_2026_10/importance_repro_check_task9_seed42)",
+  "sources": {
+    "original": {
+      "path": "condition_aware/task_feature_importance.csv",
+      "sha256": "b67459eab709d171cbc964db5de6036522fb47d523687603d90f94eea24bf77f"
+    },
+    "tasks4_8": {
+      "path": "revision_2026_10/importance_tasks4_8_seed42_46_run1/task_feature_importance.csv",
+      "sha256": "1963b58e7a94bddafdb4a28421fdb447bf103d45083e95e8c14ea63f66e93c40"
+    }
+  },
+  "merged": {
+    "path": "revision_2026_10/importance_all11_v1/task_feature_importance.csv",
+    "sha256": "4070eed0323fc2d0814b27427b6d5bbadbf30c36549aeab3546ab11208eca3bd",
+    "rows": 16560
+  },
+  "compute_task_profiles_sha256": "204a5cefd9359f6e0685e72274ef93972c292874de10893df6779a752eb0647b"
+}

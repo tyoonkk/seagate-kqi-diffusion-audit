@@ -1,0 +1,833 @@
+{
+ "created_utc": "2026-10-08T01:38:53+00:00",
+ "reason": "too large for the Git repository",
+ "n_files": 165,
+ "total_bytes": 4111014099,
+ "files": [
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task0_seed42/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36673457,
+   "sha256": "aa6a1c3b31c0d0d9d2c28515ed9d2eefadf3ac08513507a9b605b3b83367ef11"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task0_seed42/generator_positive_only_ema_fp16.pt",
+   "bytes": 36673329,
+   "sha256": "0a7eb63399f67d4f17518fa5da17be4849f47a42e4a085570558d974d09c8c86"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task0_seed42/synthetic_pools_fp16.npz",
+   "bytes": 46567,
+   "sha256": "d7154ffa0ad6bf56bff430a15e60be15a353c9dc49a5ea53f142df4e3ac5b60e"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task0_seed43/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36673393,
+   "sha256": "d36944bced5e50a79390789899a69a80b104fcbf50b78684a028718b5ffb0d48"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task0_seed43/generator_positive_only_ema_fp16.pt",
+   "bytes": 36673329,
+   "sha256": "f8d5ec48b08fd79feb5765be855642cb58fef329cbdf2ff47cc7bab61d463fa6"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task0_seed43/synthetic_pools_fp16.npz",
+   "bytes": 46966,
+   "sha256": "e28efc6a3d9fd9ad9823205ec808c7d320a2f65596d18a6335d3af66557a8524"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task0_seed44/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36673457,
+   "sha256": "f85225b15ede01863fd0c7e364adf2e792caa6cd962869ac6c3cafcefcd1f9db"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task0_seed44/generator_positive_only_ema_fp16.pt",
+   "bytes": 36673329,
+   "sha256": "c4b6d2ae421ade96daab460d58ded313c0f2e72642e78065abc0d3dde05cf6fc"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task0_seed44/synthetic_pools_fp16.npz",
+   "bytes": 47401,
+   "sha256": "4eb03e2d3e1b8052d8449cba8e15ff2e4b4b0d9f4c92eaa9c7c394fcac95ef13"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task0_seed45/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36673393,
+   "sha256": "27eeadfbfb6cfba73ad27f9068191bb35d9f6dabe1988588a249cfef2ba65b3c"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task0_seed45/generator_positive_only_ema_fp16.pt",
+   "bytes": 36673329,
+   "sha256": "21d4dbc813698053119d14436fa02a6ff43a339c9c4efe29fe0d3f9f5707a567"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task0_seed45/synthetic_pools_fp16.npz",
+   "bytes": 46985,
+   "sha256": "e2698748c6d99296453bd49540e9380c54f2ca38d96daad1a43ac14b5b8952d1"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task0_seed46/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36673393,
+   "sha256": "6a5a5db7454ad922f9a33f27bb8f8a05e3d6e6586b7e810fddf6e79416973f49"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task0_seed46/generator_positive_only_ema_fp16.pt",
+   "bytes": 36673329,
+   "sha256": "328fb7f089491d559c55d888e432c4536b72b930cb5463bf4838a1abdf7733d5"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task0_seed46/synthetic_pools_fp16.npz",
+   "bytes": 47254,
+   "sha256": "7a7ee1bbc3ba0a50b15b341f416820eb19403fb38d7f76b424deefbbc998348c"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task10_seed42/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 38280881,
+   "sha256": "aeace0516f6584c1ab20bd1e0d288b301e275c006769887081c1ea16832960cf"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task10_seed42/generator_positive_only_ema_fp16.pt",
+   "bytes": 38280497,
+   "sha256": "98e8211d284c35a8a723ae8ee1a28e13f33f17ec2c885256317119e3129d69e6"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task10_seed42/synthetic_pools_fp16.npz",
+   "bytes": 1041908,
+   "sha256": "10b2a003fb135d4f16231a0391e47a4f5d6a18e5a665d211605f6c362d440e5f"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task10_seed43/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 38280881,
+   "sha256": "fca49b4e7b3ebd63bb3f974b5c84af6682f658e5e56fe773ec16cd3ad57d92ee"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task10_seed43/generator_positive_only_ema_fp16.pt",
+   "bytes": 38280497,
+   "sha256": "9c82d6b205a78fda1da60e6d99f8835ee6a92117aa66fa2687f33aa15866e409"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task10_seed43/synthetic_pools_fp16.npz",
+   "bytes": 1041366,
+   "sha256": "f32f835353a552df6528095969e2c8306c7b8b3adc9cb86d4f90470a9d14ec9a"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task10_seed44/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 38280753,
+   "sha256": "dcff0a7725734a9ce7113c42b3c0496b21980be099630626355e1ddd66332bc9"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task10_seed44/generator_positive_only_ema_fp16.pt",
+   "bytes": 38280561,
+   "sha256": "eb241d385e25b786f4b33b90d818ac06ffb2075a585cb60545e355eebf97afb5"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task10_seed44/synthetic_pools_fp16.npz",
+   "bytes": 1043989,
+   "sha256": "daf5357c125d87e5a320022420b6acfd2de6e74c3e9c59dbbacc9cc8e16b8607"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task10_seed45/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 38280881,
+   "sha256": "bbb39ee002a39b4be4f6ce77856abf2a437b2f4e3f9d4081eb7707b84da6bec6"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task10_seed45/generator_positive_only_ema_fp16.pt",
+   "bytes": 38280497,
+   "sha256": "46fc312c5e6bb979e8befcb81ebb0edabb759994d7d68adb96e8216851604087"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task10_seed45/synthetic_pools_fp16.npz",
+   "bytes": 1038105,
+   "sha256": "24ec1bfd0f69c695d2b90e7a7209fd091a496f703051e82fc92dc88bb6bb432a"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task10_seed46/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 38280881,
+   "sha256": "51aedc70170ad773ce1473eb054fe0b3b5514b43acdacd059ea8aaf15f708de1"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task10_seed46/generator_positive_only_ema_fp16.pt",
+   "bytes": 38280497,
+   "sha256": "13c9005c7f221816da8d6d3ddc6a19ff18b9df541088eaf9493b4a1ae74a6a9e"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task10_seed46/synthetic_pools_fp16.npz",
+   "bytes": 1039989,
+   "sha256": "2f1453592604862e170ef3698ce5dddd8836011e0c8ddba2cb97ab0ba96becdd"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task1_seed42/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37206321,
+   "sha256": "a422a7940c27325b422482a5b018d2d5ae6098c835fc58b31586527b4d119c00"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task1_seed42/generator_positive_only_ema_fp16.pt",
+   "bytes": 37206193,
+   "sha256": "7bcd19859d946f43f2eb80951c1050ae36e9c26fe301e6c69b38d29ee75035bd"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task1_seed42/synthetic_pools_fp16.npz",
+   "bytes": 176491,
+   "sha256": "11029704e431bcc6834a2247fb6b25b34f9aeabbbe4d32adfab5f5010dc9fc1d"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task1_seed43/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37206321,
+   "sha256": "c6b982dacefb51bc90b8ed8591eafa586d4e283e773eb7a23ebe95fec957bee7"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task1_seed43/generator_positive_only_ema_fp16.pt",
+   "bytes": 37206193,
+   "sha256": "998341210d159807db2dfede5278ba3feb72042f5f1a7704fadc475021078b94"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task1_seed43/synthetic_pools_fp16.npz",
+   "bytes": 176802,
+   "sha256": "ba0f5344cfb969c432434ab0e6140b114ce2660343121a2b4e4dae5e06d19b22"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task1_seed44/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37206321,
+   "sha256": "3a5cc1acb959c7f5438469e369d19796b6b0a0bd11f508c22f2c337ac715d282"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task1_seed44/generator_positive_only_ema_fp16.pt",
+   "bytes": 37206193,
+   "sha256": "e3213d245321b8ba9d372117fb5a40302ac7421442ddc6fcd8e87e741cad6275"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task1_seed44/synthetic_pools_fp16.npz",
+   "bytes": 177236,
+   "sha256": "f219fb4b6e8f85facdbb65ed3b1846dfee8144748c682b762652b49eb5160d4b"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task1_seed45/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37206321,
+   "sha256": "aa3de8ab799c46f9ab666e9660a47c04dfc91bd49b0dc3e9e3f02d7f27b5649d"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task1_seed45/generator_positive_only_ema_fp16.pt",
+   "bytes": 37206193,
+   "sha256": "c291ff20ee3d044e186e4dc924d868d08eb0ef5eb5fe7a5a33a06ef8792ed592"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task1_seed45/synthetic_pools_fp16.npz",
+   "bytes": 176812,
+   "sha256": "add61df20aa07372fa3d380f3e4ac680a6c063c180d1812e3a928559d97592fb"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task1_seed46/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37206321,
+   "sha256": "4213fb89f04e003d60ac96f18e5f93a4c84350bac9cffb2b6a2caa5fe9239711"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task1_seed46/generator_positive_only_ema_fp16.pt",
+   "bytes": 37206193,
+   "sha256": "95b46699f59e1a6ad9c097f6fc48526a79569d0277a77b11092faa1cec28ee0d"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task1_seed46/synthetic_pools_fp16.npz",
+   "bytes": 176618,
+   "sha256": "a9a0b103527c24bd7f45ebffd876850b280f8aefd88ad5ed0387a6d06f1bdd90"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task2_seed42/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37435953,
+   "sha256": "10e7903015b77e712fde2f6da39949ed9a6ef28d781e790fc0ac17a6acb915f1"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task2_seed42/generator_positive_only_ema_fp16.pt",
+   "bytes": 37435697,
+   "sha256": "cc927a36447545b7ac54a4b7a8306c9b61761fcff183ab3fcc2465ac087f4a12"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task2_seed42/synthetic_pools_fp16.npz",
+   "bytes": 529279,
+   "sha256": "bf9bb5c5f423c79d58c5af946b67a24129feb0fdf7d1744f2b44519b3c06deaa"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task2_seed43/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37435889,
+   "sha256": "fbd631c2edf820b33f8ba751c8d293a80da4448fd210238ff30f0bde8958e3df"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task2_seed43/generator_positive_only_ema_fp16.pt",
+   "bytes": 37435697,
+   "sha256": "0cafdcdd283572a79b8e4570997d61ac424a2cd76a64a1a39ea7750a49082e82"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task2_seed43/synthetic_pools_fp16.npz",
+   "bytes": 530488,
+   "sha256": "3519ec44d4c3dd23585728d67c82ba872fc7fc64927fd1511cf5606fed472ce1"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task2_seed44/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37435889,
+   "sha256": "fe6eaf0774aaa02ad68d3638e1f340d736a06de55603ce525edbff23898d8f87"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task2_seed44/generator_positive_only_ema_fp16.pt",
+   "bytes": 37435697,
+   "sha256": "71178feaba94b2bff0e1484f5a39c7cbc5a9613379e97f38279da682881531f9"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task2_seed44/synthetic_pools_fp16.npz",
+   "bytes": 529558,
+   "sha256": "08ea236fc85b14f4cc75d9e7afbcc1c7e317eb7d8934e5012dc7570a582a01dc"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task2_seed45/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37435889,
+   "sha256": "9b68feae9fb8e792d0bc4668bf299d44bda17f7723ebb4815fcd90f1daee3c50"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task2_seed45/generator_positive_only_ema_fp16.pt",
+   "bytes": 37435697,
+   "sha256": "7eb24f51196e1caaddca1bb21a7a7903077ee7471cb319fba7f8c195f5fa714b"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task2_seed45/synthetic_pools_fp16.npz",
+   "bytes": 530616,
+   "sha256": "9446590ed98440b9626b0e4aed5cb9e958f56b85ac8bf67d48c8c0c0274817c6"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task2_seed46/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37435953,
+   "sha256": "29d76735823d195a79cab5e11726c88acd65aa1d7763fe3ce46446c39cc12182"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task2_seed46/generator_positive_only_ema_fp16.pt",
+   "bytes": 37435697,
+   "sha256": "a7eb4e5a9716fd8adf4cc74eb3a1a9744467cb51e5d3ab1fb045e24c6d0fbcf2"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task2_seed46/synthetic_pools_fp16.npz",
+   "bytes": 526996,
+   "sha256": "7de73551af11fe81bab339ea9ed5ba088a36a0f2686a328efe683de81caab6e4"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task3_seed42/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37034161,
+   "sha256": "76075362d4ad1ab7de77f48a274b15dc64c91f6bed68f9f3880a4e8979b07500"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task3_seed42/generator_positive_only_ema_fp16.pt",
+   "bytes": 37034033,
+   "sha256": "3d18b54b816ddf8009724c760b23c0a53ab0b74b348b7cdda0df169503039fed"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task3_seed42/synthetic_pools_fp16.npz",
+   "bytes": 118022,
+   "sha256": "039868bc3da4bab6c95afecff2c4252553ba8e50b23232d468ab2cd48eef31d6"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task3_seed43/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37034097,
+   "sha256": "ad83dda191262e8e304045776009676e459dceb345febc82c0d02c4507244264"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task3_seed43/generator_positive_only_ema_fp16.pt",
+   "bytes": 37034033,
+   "sha256": "6154e9e7b1ef85fc1d6677d0c91f6e4afcbcfdfb1eda5227d9ac1c750ca956e2"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task3_seed43/synthetic_pools_fp16.npz",
+   "bytes": 118012,
+   "sha256": "b0ca4b24f4d44aecb7f1c458f5e0d6be46f79a6dd45a4c4d276e0b720493e596"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task3_seed44/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37034097,
+   "sha256": "c61a9d01fbb21bde9851e59abd05c28dc0f24cf2e2773038695b5ff709074148"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task3_seed44/generator_positive_only_ema_fp16.pt",
+   "bytes": 37034033,
+   "sha256": "5a2dc7e2d718369d0ff6f5b4c186ce56b2966f9c9dfb0a5fe5f0122e0de9a325"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task3_seed44/synthetic_pools_fp16.npz",
+   "bytes": 118658,
+   "sha256": "0b55598895592baaa33f448e3c1cd1ca9f5d1a0fa752933896f12a75ee3602fd"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task3_seed45/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37034097,
+   "sha256": "ec75fed8de53effa0f519daf18ff771a8f439efb0de3e9a608b1e776c614bb51"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task3_seed45/generator_positive_only_ema_fp16.pt",
+   "bytes": 37034033,
+   "sha256": "86fa194717ac8f81d466cee8bf478fd7e78f214da58dced1680ca824bd3fb359"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task3_seed45/synthetic_pools_fp16.npz",
+   "bytes": 117959,
+   "sha256": "a4c7ac5ff12be8175880ee74f5c17dab0d7da874b7620ec48fa6cf35915f9992"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task3_seed46/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37034097,
+   "sha256": "b32b085183e747455b506c6cebeb2ed0d8b39d1b66eeaa51a441a52d5e73532c"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task3_seed46/generator_positive_only_ema_fp16.pt",
+   "bytes": 37034033,
+   "sha256": "d61503314aab9fca940088fd8adfe716ea15a40431638574edabed3d080035c6"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task3_seed46/synthetic_pools_fp16.npz",
+   "bytes": 118379,
+   "sha256": "dfb52798474d5c8751316be8997ced38930e0060319942ac8f7bbffc83ffb515"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task4_seed42/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36800369,
+   "sha256": "2d811378ee00b093432e18d9f66c641e8e97222d5dbddb03a97bc6d18f176207"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task4_seed42/generator_positive_only_ema_fp16.pt",
+   "bytes": 36800369,
+   "sha256": "6fc6f0aa03ee713618c1c5cf4704f68fbc44bbc20e5f3730f1e179983b9d0c40"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task4_seed42/synthetic_pools_fp16.npz",
+   "bytes": 46358,
+   "sha256": "c035cfb46acd7f8f407e8dae685766f50ea0f3ab1808eee180af3dd4bc0cfa7c"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task4_seed43/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36800369,
+   "sha256": "53ac1f7d0172de456e75b3abd6bf8475276f0fbacd9ab779ae43e4bd33c25496"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task4_seed43/generator_positive_only_ema_fp16.pt",
+   "bytes": 36800369,
+   "sha256": "26cd6423836681b05508b5b3be437f62cc4afdbcd0921de7f612419ce30630c4"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task4_seed43/synthetic_pools_fp16.npz",
+   "bytes": 46525,
+   "sha256": "8b814c9d362dc88927cb1e7157704b31590de483610266460963fab41a534296"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task4_seed44/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36800369,
+   "sha256": "3ce87256d87afe1d7e1c83ae62f70fd0f2cef1df40144f66c9f9736ba4db0990"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task4_seed44/generator_positive_only_ema_fp16.pt",
+   "bytes": 36800369,
+   "sha256": "f95a424c9d8ee332eb05735e7b4bcbaa4e6605ac83b950c12d0ecdbb092dd02b"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task4_seed44/synthetic_pools_fp16.npz",
+   "bytes": 46612,
+   "sha256": "492d760082f3ecc44d66762c67fc084479bb3478577dc9ea4ee4878ad7febea8"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task4_seed45/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36800369,
+   "sha256": "e35f81c21d09244a76335f9630a070e0577bb86989b6458b34e59604b1017dc5"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task4_seed45/generator_positive_only_ema_fp16.pt",
+   "bytes": 36800369,
+   "sha256": "7d4b9bf0d3d628983fb8abc23918cdfbd34b60e6742cb3b81addf9301f23ecba"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task4_seed45/synthetic_pools_fp16.npz",
+   "bytes": 46736,
+   "sha256": "ba633213d5c290f6055f5212c9b5c26a1c493273a425d1d351d1209a5468f163"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task4_seed46/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36800369,
+   "sha256": "f283c06a7eb723a5309475eb1b06ff7996db29d8e4b85b8d798867de7902ff35"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task4_seed46/generator_positive_only_ema_fp16.pt",
+   "bytes": 36800305,
+   "sha256": "cc92aacde3d5ba120ec70be18c0a5f5554a223763c662bb31ebb2c4862ad47e8"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task4_seed46/synthetic_pools_fp16.npz",
+   "bytes": 46501,
+   "sha256": "0de4a29d6e8e952204c69b2c61ebf12027bcb30a8e26ccbc6c40f000fb052c18"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task5_seed42/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36624241,
+   "sha256": "0829705e6875f16b4a401e854321769deb175678f2702c4bb60580d1fc8c9df0"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task5_seed42/generator_positive_only_ema_fp16.pt",
+   "bytes": 36624177,
+   "sha256": "26b0493e1211f9e1f1af4601ddcb43f5c303ea3f7eca8a06ff141e86c3d198ab"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task5_seed42/synthetic_pools_fp16.npz",
+   "bytes": 172940,
+   "sha256": "a263e2ec91a9a609ea512809b6d4a9c8500ac6ce9bc0f5b1a930de914c190e11"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task5_seed43/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36624305,
+   "sha256": "e740c102de157874b5e625a7fb30f34852125fdee6e9bd6e92c49bde7784c783"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task5_seed43/generator_positive_only_ema_fp16.pt",
+   "bytes": 36624177,
+   "sha256": "07f1895165481039cea6337b269352f83c4c7cc917e93b556adfb84abd9b68f9"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task5_seed43/synthetic_pools_fp16.npz",
+   "bytes": 171393,
+   "sha256": "915402b2d4d0ef2a922d62a504d03041c122ce1d716556795b0c74f6a0abe8cb"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task5_seed44/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36624241,
+   "sha256": "1cc4485245a9743df850f839720e7cdba3f97ae4a9173a6f1914e6e9cf261aa7"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task5_seed44/generator_positive_only_ema_fp16.pt",
+   "bytes": 36624177,
+   "sha256": "2f38254bc27e8b59996584517a71c8f9c8bfe0691f46daf7fdc6199a05902f54"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task5_seed44/synthetic_pools_fp16.npz",
+   "bytes": 171884,
+   "sha256": "20c26b1a5c84d2701f4139bced94ecdc99e130f534a8a91fd43a5d367f41f20e"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task5_seed45/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36624305,
+   "sha256": "98e9116b4053d5ff3c8894eaac0dedc19a65a3512c855597353adc3927fa84e4"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task5_seed45/generator_positive_only_ema_fp16.pt",
+   "bytes": 36624177,
+   "sha256": "d01accfdf0f50976e10a1630e1648a5cb352fe351c931d6ad20046eb69544652"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task5_seed45/synthetic_pools_fp16.npz",
+   "bytes": 172673,
+   "sha256": "8b41df401077b4978a31c90a98c3c51f9c3de3b3579d5401f718b3547fb0c5f7"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task5_seed46/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36624241,
+   "sha256": "ecbe5359554ce06f8f02913491ee3c4477de18c8f40f9b1f421026eb46b44624"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task5_seed46/generator_positive_only_ema_fp16.pt",
+   "bytes": 36624177,
+   "sha256": "85d42275b70612f4ba1f8a39c24139dbc81c110c478286a0eed4eabf7d7d74e7"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task5_seed46/synthetic_pools_fp16.npz",
+   "bytes": 172325,
+   "sha256": "6e3873538701e0dbc619fc1090ec11f3c2a55d1590cf80cf4655319501e897c3"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task6_seed42/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37702641,
+   "sha256": "93f9f7c55606149cbf0cd45c3f7d0dc494fd078d3d879d68877ec13422c79a26"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task6_seed42/generator_positive_only_ema_fp16.pt",
+   "bytes": 37702321,
+   "sha256": "61052dc22b27457ae67654a04b08836890ee6d01e66f3d4a0b49948fd44f1b5d"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task6_seed42/synthetic_pools_fp16.npz",
+   "bytes": 584352,
+   "sha256": "648c2f89d9902c15cb42e66a6d78b22161562aa929ea6808a972c1767a922168"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task6_seed43/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37702577,
+   "sha256": "959694f61523b180bf92c32dc18c7ba4db2da0f076af2f3d499e6c25015a4fce"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task6_seed43/generator_positive_only_ema_fp16.pt",
+   "bytes": 37702321,
+   "sha256": "3d0a3fd2e9b39dee2c27f2c2137f72728af16da994efb62e318422c4d4cba7d7"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task6_seed43/synthetic_pools_fp16.npz",
+   "bytes": 582892,
+   "sha256": "a16387d8d51370eda766580f6eb8d725ddc7c0870778fa1595104708ad9a6e3c"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task6_seed44/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37702705,
+   "sha256": "44f6b377001b1d717dce0a5ccb272dede7f43f29392fbf408e7bd697d6bdf69c"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task6_seed44/generator_positive_only_ema_fp16.pt",
+   "bytes": 37702321,
+   "sha256": "7d1b229f301d8edf821da490a528499f1db04a18a9931a245108d82fc9d0d03c"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task6_seed44/synthetic_pools_fp16.npz",
+   "bytes": 585310,
+   "sha256": "b8d3327a257433db1982364ff9f582ddffc58950f0aa46e233d7e2a7d599648e"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task6_seed45/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37702577,
+   "sha256": "36d870c2cc48934925454344053e174bc3a4fcd96decf2867a5a292d4809ae16"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task6_seed45/generator_positive_only_ema_fp16.pt",
+   "bytes": 37702321,
+   "sha256": "48d731c96f858dceeff326dc778e5597893e639db47f36aa23b8929d0e8cd3df"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task6_seed45/synthetic_pools_fp16.npz",
+   "bytes": 584624,
+   "sha256": "d9bd5f3c212a2157a44e2de6eed67dc1454125545cc5785cad04dfb18921636d"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task6_seed46/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 37702641,
+   "sha256": "90ed71bc00f7ce04d998a9b2ca14c939cf508f29f046290c2987e34ea807479b"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task6_seed46/generator_positive_only_ema_fp16.pt",
+   "bytes": 37702321,
+   "sha256": "1850bbded9aa46b151072a5c6c6dbf57523a8d5a2124bc20f31300ca6cd47960"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task6_seed46/synthetic_pools_fp16.npz",
+   "bytes": 585198,
+   "sha256": "c8fe10085f2d2bb51734273233bd1d1670b4693314bcb3b379bec2c49334c459"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task7_seed42/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 38231153,
+   "sha256": "f6c4dbb19fb1d582548411d3e65327247eb85caf5dd45ac3643c499cc646bb82"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task7_seed42/generator_positive_only_ema_fp16.pt",
+   "bytes": 38230897,
+   "sha256": "3f047b55d63b02ab5869d02801a396ac37fef431699e601140e01c629bfaa927"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task7_seed42/synthetic_pools_fp16.npz",
+   "bytes": 543508,
+   "sha256": "0b9d268cfab291b6a59bc3d7a3e8c79ea422d42033c33eeceba801666e1f8ae4"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task7_seed43/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 38231089,
+   "sha256": "daf02ea8d2b3670a80059438d988c2eeb04e82805770cb595a6ad06bb8751d7c"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task7_seed43/generator_positive_only_ema_fp16.pt",
+   "bytes": 38230961,
+   "sha256": "d54e3d757bd3af53eeb7fdad620ec8af2d84f37751b1869082367d76dd3a6f17"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task7_seed43/synthetic_pools_fp16.npz",
+   "bytes": 545081,
+   "sha256": "6492768614724cdcff6049aa010991fec78741426dd11810c7c0703c46976120"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task7_seed44/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 38231217,
+   "sha256": "35d79f2db1e6b1c8206f058eee1736523b333f1fbe46706630589dec24f9edca"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task7_seed44/generator_positive_only_ema_fp16.pt",
+   "bytes": 38230897,
+   "sha256": "7f97027a780010ebdf320f6cee33e4ee0da62fd80586e173b2b6ee8fa13e1ae9"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task7_seed44/synthetic_pools_fp16.npz",
+   "bytes": 545551,
+   "sha256": "203a5efb20ccf894ee3e03f4bf35559bf721917b06dc64a2badec1d58789a0e7"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task7_seed45/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 38231089,
+   "sha256": "1efd3edc507ccd1fae39286f538cfa2d77b02075ea3dfa2d1a16fceab48afcc8"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task7_seed45/generator_positive_only_ema_fp16.pt",
+   "bytes": 38230961,
+   "sha256": "15a5a15733996cb5fdfa27d4a5545dd9513a591c3a1d8ae82bb0404a450b81a8"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task7_seed45/synthetic_pools_fp16.npz",
+   "bytes": 543009,
+   "sha256": "508272409ed94c7d98d70f6723f37e102dcc8f8bcf9312fbee7e870b00b5b5dd"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task7_seed46/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 38231089,
+   "sha256": "a5303f35a843c036150d1ff0f83bed96ee2d7bbae7d321a98097c53103ac18e4"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task7_seed46/generator_positive_only_ema_fp16.pt",
+   "bytes": 38230897,
+   "sha256": "beda9b1b7430afa972afa9ecc5d302da48ab0520bd434eeecf88bdd6524df7a9"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task7_seed46/synthetic_pools_fp16.npz",
+   "bytes": 542836,
+   "sha256": "29da1d0319feb3223e1d9ac3bb4d97bc30d6a2da45e2f966721e171e73b3fa8f"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task8_seed42/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36882545,
+   "sha256": "a413dd286a6c6f945e29a5520482c00f3102c70c85ad87b05192ce7d7f0ba3e5"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task8_seed42/generator_positive_only_ema_fp16.pt",
+   "bytes": 36882417,
+   "sha256": "65e8c8354fbf13cb3b8baa94ce1b6e98115cb1491731fe1a8a9fbc2789e37bff"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task8_seed42/synthetic_pools_fp16.npz",
+   "bytes": 158743,
+   "sha256": "ddeb091819954d6d98cdd5e0037133495404ada3f3409e2bb3bcce76013d9638"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task8_seed43/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36882545,
+   "sha256": "dbe149b254d9ae8e7692eb10d4a95be9ea51afb819760f920494710550018bf0"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task8_seed43/generator_positive_only_ema_fp16.pt",
+   "bytes": 36882417,
+   "sha256": "b5d2af88edac86f51397c2406473ca188b773b346db24faf4a1d96dcc3f45c85"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task8_seed43/synthetic_pools_fp16.npz",
+   "bytes": 160646,
+   "sha256": "4d3ca31d831643b0f7b0f889e0c4c8555e45be334fa6c79d2f33a6c3ade5eb30"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task8_seed44/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36882545,
+   "sha256": "efd16bbc24f7d80355adafbf5f6b92b6041d914428f8a0b24ba1c60cc6dee1bb"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task8_seed44/generator_positive_only_ema_fp16.pt",
+   "bytes": 36882481,
+   "sha256": "5f44195cd69fa33959e504d914fe5ef13f56061e3f47c19773a429d7f37bcd5f"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task8_seed44/synthetic_pools_fp16.npz",
+   "bytes": 159193,
+   "sha256": "cce4c802ed4ebbfda9e1c008101b4af60922f8c21908f7b8474b0de7007fe998"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task8_seed45/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36882545,
+   "sha256": "bdc8dd6255f9562de4c719eb0cdb7919b25357eba026d6bce14b47cf5fee690b"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task8_seed45/generator_positive_only_ema_fp16.pt",
+   "bytes": 36882417,
+   "sha256": "42424b292a7bef8fb1fd315bf7eab8b5da8a3d5d02255cbab6d77ef718ad4c5e"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task8_seed45/synthetic_pools_fp16.npz",
+   "bytes": 160646,
+   "sha256": "d3a177f6d1054ec7bfba229ad4329d81f43cc40197c715ace06dc85e36aced67"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task8_seed46/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36882481,
+   "sha256": "f2fcc327d84bcc9f192da3e65c06a6e21a381476ddd30a18cbb720538b7191ae"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task8_seed46/generator_positive_only_ema_fp16.pt",
+   "bytes": 36882481,
+   "sha256": "e165545289e1e6067779cbb51cd8130c6ea49f5f00266a4b0c5e08c6539a7f1c"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task8_seed46/synthetic_pools_fp16.npz",
+   "bytes": 159742,
+   "sha256": "58e3150efb60406899d85d4e5d2e047fdac95f02c23d16bd256d111b35cfe9f7"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task9_seed42/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36493041,
+   "sha256": "d8652b81493b0ea9f8232489fd04a9cc3dd38eb18e2aeb017fe3a7ac251f9625"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task9_seed42/generator_positive_only_ema_fp16.pt",
+   "bytes": 36493041,
+   "sha256": "c0c99467491aa5928639989cdc5bcf995671ef2e81378779f3db6469868003b4"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task9_seed42/synthetic_pools_fp16.npz",
+   "bytes": 55710,
+   "sha256": "4b68ba6d2ed67fcf18f3496af28d635ed6b0cdbff6a17c99b5673f4dd7f1fc52"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task9_seed43/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36493041,
+   "sha256": "363281e7506e5afa41f5419b2806d0bc872ab696837729e1cbc080591a09164c"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task9_seed43/generator_positive_only_ema_fp16.pt",
+   "bytes": 36492977,
+   "sha256": "6789b0f129e84c86759e5d487e492c2d40e8757214a07ade0ef386b427c61d93"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task9_seed43/synthetic_pools_fp16.npz",
+   "bytes": 55874,
+   "sha256": "e0f362711dd3bcece420d2bfc5236d717ab8a6d3cd7f7afb3a43728e65166676"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task9_seed44/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36493041,
+   "sha256": "0cc6c06cd5aa551585c3217252f04ee6b02434d785e15edb2e5a2cfa6993876c"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task9_seed44/generator_positive_only_ema_fp16.pt",
+   "bytes": 36492977,
+   "sha256": "540f694004ffd6e51952f0fa1085b09a9c3e8ce2446f2a4eb2b5f875dbc99b2d"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task9_seed44/synthetic_pools_fp16.npz",
+   "bytes": 55635,
+   "sha256": "313c28892351c714c5b8db9b6071597958fc3a908756c3d79de1d3c03e6064ac"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task9_seed45/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36493041,
+   "sha256": "061e33203cef77d35b4ec052ececd34929ec7b99921ca7efa43a3abdc58cc3ae"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task9_seed45/generator_positive_only_ema_fp16.pt",
+   "bytes": 36492977,
+   "sha256": "f7ff925b243567d4000a378ca42f720652c245517df5e01d1d90d94d53c18f69"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task9_seed45/synthetic_pools_fp16.npz",
+   "bytes": 55595,
+   "sha256": "03e55c0018dba3213b215f46b86dc745a1acd0feecfff2fd48b36830deb6a846"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task9_seed46/generator_conditional_mixed_ema_fp16.pt",
+   "bytes": 36493041,
+   "sha256": "8882146d36b6c9cb7ace26911813faeb65f72cd23dbbdbc2615d135245f39113"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task9_seed46/generator_positive_only_ema_fp16.pt",
+   "bytes": 36493041,
+   "sha256": "562caad53c8d89fc670b112ee9d3dc268a54dc14c3f6e3ca0b0ac5423f7b0d12"
+  },
+  {
+   "workspace_path": "experiments/seagate_kqi/outputs/revision_2026_10/regen_archive_v1_run1/task9_seed46/synthetic_pools_fp16.npz",
+   "bytes": 55713,
+   "sha256": "c81c622d4a42c52e3a2c657d26d83b3c77a50f7387b3259ee6d1f9a3bec4131d"
+  }
+ ]
+}

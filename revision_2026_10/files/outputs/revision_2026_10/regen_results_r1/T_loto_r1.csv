@@ -1,0 +1,6 @@
+archive,classifier,task_set,n_rows,selected,negative_rows,task_macro,min_task,ci_low,ci_high
+original,lgbm,archive9,45.0,11.0,0.0,0.0085793066894532,0.0,0.0011522156885808,0.0175433145655152
+regenerated,lgbm,archive9,45.0,0.0,0.0,0.0,0.0,0.0,0.0
+regenerated,lgbm,all11,55.0,0.0,0.0,0.0,0.0,0.0,0.0
+regenerated,xgb,archive9,45.0,1.0,1.0,-0.0001323324081767,-0.0011909916735908,-0.0003969972245302,0.0
+regenerated,xgb,all11,55.0,1.0,1.0,-0.0001082719703264,-0.0011909916735908,-0.0003248159109793,0.0

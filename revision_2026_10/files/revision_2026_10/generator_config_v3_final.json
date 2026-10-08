@@ -1,0 +1,4 @@
+{"T": 1000, "beta_start": 0.0001, "beta_end": 0.02, "hidden_dim": 1024, "n_blocks": 4, "time_dim": 128, "dropout": 0.1,
+ "train_steps": 40000, "batch_size": 256, "lr": 0.0005, "weight_decay": 0.0001, "warmup_steps": 500, "grad_clip": 1.0,
+ "ema_decay": 0.999, "log_every": 500, "sample_batch": 4096, "device": "cuda", "standardize": true, "holdout_frac": 0.2,
+ "min_holdout": 20, "eval_every": 250, "patience": 8, "use_bf16": true}

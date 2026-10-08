@@ -1,0 +1,167 @@
+{
+ "lgbm_archive9": {
+  "nested": [
+   {
+    "regime": "conservative",
+    "n_tasks": 9,
+    "n_rows": 45,
+    "task_macro_mean_delta": -0.0013913952219092446,
+    "task_median_delta": 0.0,
+    "negative_task_count": 1,
+    "negative_row_count": 2,
+    "hybrid_selection_count": 3,
+    "hybrid_selection_rate": 0.06666666666666667,
+    "ci_low": -0.004174185665727734,
+    "ci_high": 0.0
+   },
+   {
+    "regime": "mean_only",
+    "n_tasks": 9,
+    "n_rows": 45,
+    "task_macro_mean_delta": -2.8875307124531404e-05,
+    "task_median_delta": 0.0,
+    "negative_task_count": 4,
+    "negative_row_count": 7,
+    "hybrid_selection_count": 15,
+    "hybrid_selection_rate": 0.3333333333333333,
+    "ci_low": -0.007222269664401803,
+    "ci_high": 0.007945218691042958
+   }
+  ],
+  "loto": [
+   {
+    "n_tasks": 9,
+    "n_rows": 45,
+    "task_macro_mean_delta": 0.0,
+    "task_median_delta": 0.0,
+    "minimum_task_mean_delta": 0.0,
+    "negative_task_count": 0,
+    "harm_row_count": 0,
+    "selected_count": 0,
+    "coverage": 0.0,
+    "ci_low": 0.0,
+    "ci_high": 0.0
+   }
+  ],
+  "matched": [
+   {
+    "family": "legacy5",
+    "objective": "conservative",
+    "task_macro_mean_delta": 0.0,
+    "hybrid_selection_count": 0,
+    "negative_row_count": 0,
+    "ci_low": 0.0,
+    "ci_high": 0.0
+   },
+   {
+    "family": "legacy5",
+    "objective": "mean_only",
+    "task_macro_mean_delta": -0.0025359431414415964,
+    "hybrid_selection_count": 5,
+    "negative_row_count": 4,
+    "ci_low": -0.005887154881013617,
+    "ci_high": 0.0
+   },
+   {
+    "family": "legacy5",
+    "objective": "harm_first",
+    "task_macro_mean_delta": 0.0,
+    "hybrid_selection_count": 0,
+    "negative_row_count": 0,
+    "ci_low": 0.0,
+    "ci_high": 0.0
+   },
+   {
+    "family": "nested7_veto",
+    "objective": "conservative",
+    "task_macro_mean_delta": 0.0,
+    "hybrid_selection_count": 0,
+    "negative_row_count": 0,
+    "ci_low": 0.0,
+    "ci_high": 0.0
+   },
+   {
+    "family": "nested7_veto",
+    "objective": "mean_only",
+    "task_macro_mean_delta": -0.0038635654538880563,
+    "hybrid_selection_count": 8,
+    "negative_row_count": 7,
+    "ci_low": -0.009203485176046636,
+    "ci_high": 0.0
+   },
+   {
+    "family": "nested7_veto",
+    "objective": "harm_first",
+    "task_macro_mean_delta": 0.0,
+    "hybrid_selection_count": 0,
+    "negative_row_count": 0,
+    "ci_low": 0.0,
+    "ci_high": 0.0
+   },
+   {
+    "family": "nested7_candidate",
+    "objective": "conservative",
+    "task_macro_mean_delta": 0.0,
+    "hybrid_selection_count": 0,
+    "negative_row_count": 0,
+    "ci_low": 0.0,
+    "ci_high": 0.0
+   },
+   {
+    "family": "nested7_candidate",
+    "objective": "mean_only",
+    "task_macro_mean_delta": -0.0038635654538880563,
+    "hybrid_selection_count": 8,
+    "negative_row_count": 7,
+    "ci_low": -0.009203485176046636,
+    "ci_high": 0.0
+   },
+   {
+    "family": "nested7_candidate",
+    "objective": "harm_first",
+    "task_macro_mean_delta": 0.0,
+    "hybrid_selection_count": 0,
+    "negative_row_count": 0,
+    "ci_low": 0.0,
+    "ci_high": 0.0
+   }
+  ]
+ },
+ "lgbm_all11": {
+  "nested": [
+   {
+    "regime": "conservative",
+    "n_tasks": 11,
+    "n_rows": 55,
+    "task_macro_mean_delta": 0.0,
+    "task_median_delta": 0.0,
+    "negative_task_count": 0,
+    "negative_row_count": 0,
+    "hybrid_selection_count": 0,
+    "hybrid_selection_rate": 0.0,
+    "ci_low": 0.0,
+    "ci_high": 0.0
+   },
+   {
+    "regime": "mean_only",
+    "n_tasks": 11,
+    "n_rows": 55,
+    "task_macro_mean_delta": -0.00016972517885722226,
+    "task_median_delta": -6.278202084379625e-06,
+    "negative_task_count": 6,
+    "negative_row_count": 10,
+    "hybrid_selection_count": 18,
+    "hybrid_selection_rate": 0.32727272727272727,
+    "ci_low": -0.00612623076534911,
+    "ci_high": 0.006385639296277004
+   }
+  ],
+  "loto": [
+   {
+    "n_tasks": 11,
+    "n_rows": 55,
+    "task_macro_mean_delta": 0.0,
+    "task_median_delta": 0.0,
+    "minimum_task_mean_delta": 0.0,
+    "negative_task_count": 0,
+    "harm_row_coun

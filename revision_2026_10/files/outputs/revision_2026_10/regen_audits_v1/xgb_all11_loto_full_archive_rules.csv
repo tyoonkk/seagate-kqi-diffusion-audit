@@ -1,0 +1,6 @@
+rule_name,n_tasks,n_rows,task_macro_mean_delta,task_median_delta,minimum_task_mean_delta,negative_task_count,harm_row_count,selected_count,coverage
+safe_only,11,55,0.0,0.0,0.0,0,0,0,0.0
+strict_certificate,11,55,0.0008903503481553751,0.0,-0.003978807495525399,2,3,7,0.12727272727272726
+v11_grid_or_profile_strict,11,55,3.190340853404024e-05,0.0,-0.0011909916735908799,1,1,2,0.03636363636363636
+v11_rare_signal_aggressive_else_strict,11,55,3.190340853404024e-05,0.0,-0.0011909916735908799,1,1,2,0.03636363636363636
+v12_signal_aggressive_else_strict,11,55,3.190340853404024e-05,0.0,-0.0011909916735908799,1,1,2,0.03636363636363636

@@ -1,0 +1,11 @@
+archive,classifier,task_set,regime,n_tasks,n_rows,hybrid,negative_rows,negative_tasks,task_macro,ci_low,ci_high
+original,lgbm,archive9,conservative,9,45,0,0,0,0.0,0.0,0.0
+original,lgbm,archive9,mean_only,9,45,7,5,2,-0.0020867161789478,-0.0053951556628371,0.0
+regenerated,lgbm,archive9,conservative,9,45,3,2,1,-0.0013913952219092,-0.0041741856657277,0.0
+regenerated,lgbm,archive9,mean_only,9,45,15,7,4,-2.8875307124531404e-05,-0.0072222696644018,0.0079452186910429
+regenerated,lgbm,all11,conservative,11,55,0,0,0,0.0,0.0,0.0
+regenerated,lgbm,all11,mean_only,11,55,18,10,6,-0.0001697251788572,-0.0061262307653491,0.006385639296277
+regenerated,xgb,archive9,conservative,9,45,0,0,0,0.0,0.0,0.0
+regenerated,xgb,archive9,mean_only,9,45,10,5,3,-9.490834946094508e-05,-0.0007483527917891,0.0004190070228549
+regenerated,xgb,all11,conservative,11,55,0,0,0,0.0,0.0,0.0
+regenerated,xgb,all11,mean_only,11,55,19,7,4,0.0016691443295902,-0.0001553944846772,0.0041674041179201

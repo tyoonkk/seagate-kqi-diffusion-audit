@@ -1,0 +1,2 @@
+n_tasks,n_rows,task_macro_mean_delta,task_median_delta,minimum_task_mean_delta,negative_task_count,harm_row_count,selected_count,coverage,ci_low,ci_high
+11,55,0.0,0.0,0.0,0,0,0,0.0,0.0,0.0
