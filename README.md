@@ -1,17 +1,22 @@
 # Seagate KQI Diffusion-Augmentation Audit — Code and Machine-Readable Results
 
-Companion repository for the IEEE Access submission:
+Companion repository for the manuscript:
 
-> **When Validation-Gated Diffusion Augmentation Fails to Generalize:
+> **When Validation-Gated Selection of Diffusion Augmentation Fails to Generalize:
 > A Retrospective Audit of Rare Seagate KQI Classification**
-> Tae-Yoon Kim, Young-Shin Han, and Jong-Sik Lee, Inha University
+> Tae-Yoon Kim, Young-Shin Han, Jong-Sik Lee, and Bo-Seung Kwon, Inha University
+> Under review at *Electronics* (MDPI). Releases v1.1–v1.5 accompanied an earlier
+> version of the same manuscript, whose title did not yet name the selection
+> policy as the subject that fails to generalize.
 
 This repository provides numerical traceability for every reported result:
 the analysis scripts, the archived audit outputs they produced, the exact
 input tables they consume, and machine-readable summaries with SHA-256
-manifests. It does **not** regenerate the historical diffusion candidates;
-the underlying synthetic training matrices were not retained, and the paper
-states this limitation explicitly.
+manifests. It does **not** regenerate the historical diffusion candidates of
+the original archive; their synthetic training matrices were not retained, and
+the paper states this limitation explicitly. The rebuilt archive of the
+October 2026 revision, whose generator weights and pools were retained, is
+described in `revision_2026_10/`.
 
 ## Layout
 
@@ -49,11 +54,11 @@ bootstrap draws use NumPy `default_rng(20260714)` with 10,000 resamples.
 | Script | Reported in |
 |---|---|
 | `run_ieee_conventional_baseline_audit.py` | Conventional all-endpoint audit (Table 2) |
-| `build_ieee_task_independent_nested_audit.py` | Primary task-independent nested audit (Table 4) |
-| `build_ieee_v10_uniform_grid_loto_audit.py` | Equal-budget outer LOTO sensitivity (Table 4) |
-| `build_ieee_matched_objective_gate_audit.py` | Matched-objective attribution audit (Table 5); the hardened builder writes `..._run2`, which is byte-identical to the cited `..._run1` |
+| `build_ieee_task_independent_nested_audit.py` | Primary task-independent nested audit (Table 5, original-archive rows) |
+| `build_ieee_v10_uniform_grid_loto_audit.py` | Equal-budget outer LOTO sensitivity (Table 6, harm-first row of the historical gate family) |
+| `build_ieee_matched_objective_gate_audit.py` | Matched-objective comparison (Table 6, original-archive column); the hardened builder writes `..._run2`, which is byte-identical to the cited `..._run1` |
 | `verify_matched_audit_claims.py` | Appends the matched-audit checks to `claim_verification.json` |
-| `build_ieee_revision_figures.py` | Figures 1–3 |
+| `build_ieee_revision_figures.py` | Figures of the submitted version; the revised figures are built by `revision_2026_10/files/paper/mdpi_electronics_2026/figures_r1/` |
 
 ## Integrity
 

@@ -16,7 +16,7 @@
   ],
   "license": "MIT",
   "upload_type": "software",
-  "description": "Analysis scripts, archived audit outputs, exact input tables, and machine-readable summaries for the IEEE Access submission 'When Validation-Gated Diffusion Augmentation Fails to Generalize: A Retrospective Audit of Rare Seagate KQI Classification'.",
+  "description": "Analysis scripts, archived audit outputs, exact input tables, and machine-readable summaries for the manuscript 'When Validation-Gated Selection of Diffusion Augmentation Fails to Generalize: A Retrospective Audit of Rare Seagate KQI Classification' (Tae-Yoon Kim, Young-Shin Han, Jong-Sik Lee, and Bo-Seung Kwon, Inha University; under review at Electronics, MDPI). Versions 1.1 to 1.5 accompanied an earlier version of the same manuscript. Version 2.0 adds the code, configuration, pre-recorded protocol, and lightweight outputs of the October 2026 revision, in which the candidate archive was rebuilt with a corrected diffusion generator for all 11 endpoints and evaluated with LightGBM and XGBoost (folder revision_2026_10/). The fitted generator weights and generated pools (4.1 GB) are not part of this record; revision_2026_10/EXCLUDED_HEAVY_FILES.json lists them with their SHA-256 hashes.",
   "keywords": [
     "class imbalance",
     "diffusion augmentation",
